@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+
+<title>PcCold Produtos</title>
+<link>https://www.pccold.com.br</link>
+<description>Feed oficial PcCold Google Merchant</description>
+
+<item>
+<g:id>ACFAN00314A</g:id>
+<title>Cooler FAN ARCTIC P14 Pro PST PWM 140mm Preto</title>
+<description><![CDATA[
+Cooler FAN ARCTIC P14 Pro PST PWM 140mm com controle PWM, alta pressão estática e tecnologia PST para conexão em cadeia. Ideal para gabinetes e radiadores que exigem alto desempenho térmico com baixo nível de ruído.
+]]></description>
+<link>https://www.pccold.com.br/cooler-fan-arctic-p14-pro-pst-pwm-140mm-preto-acfan00314a</link>
+
+<g:image_link>https://cdn.awsli.com.br/800x800/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-002-fi0zu9focx.webp</g:image_link>
+
+<g:additional_image_link>https://cdn.awsli.com.br/800x800/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-001.webp</g:additional_image_link>
+
+<g:availability>in stock</g:availability>
+<g:condition>new</g:condition>
+<g:price>82.24 BRL</g:price>
+<g:sale_price>69.90 BRL</g:sale_price>
+<g:brand>ARCTIC</g:brand>
+<g:product_type>Cooler FAN > FAN 140mm</g:product_type>
+
+</item>
+
+</channel>
+</rss>
