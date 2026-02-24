@@ -1,427 +1,382 @@
+# generate_feed.py
 import re
-import json
-import time
 import html
-from typing import List, Optional, Dict, Any, Tuple
+import unicodedata
 from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
 from lxml import etree
 
-
 # =========================
 # CONFIG
 # =========================
-SOURCE_XML_URL = "https://www.pccold.com.br/xml/6301c/googlemerchant.xml"
+BASE_FEED_URL = "https://www.pccold.com.br/xml/6301c/googlemerchant.xml"
 OUTPUT_FILE = "google-merchant.xml"
 
-REQUEST_TIMEOUT = 20
-SLEEP_BETWEEN_PAGES_SEC = 0.25  # evita “martelar” o site
-
-# Só manda imagens com pelo menos isso (no maior lado), depois de tentar upgrade
-MIN_IMAGE_MAX_SIDE = 600
-
-# Tamanhos “prováveis” do CDN (vamos testar em ordem)
-PREFERRED_SIZES = [
-    (1600, 1600),
-    (1200, 1200),
-    (1000, 1000),
-    (800, 800),
-    (600, 600),
-]
-
-HEADERS = {
-    "User-Agent": "PcColdFeedBot/1.1 (+https://www.pccold.com.br)",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
-
-
-# =========================
-# TEXT CLEANING
-# =========================
-EMOJI_RE = re.compile(
-    "["
-
-    # Dingbats/símbolos (inclui ✅ U+2705)
-    "\u2600-\u27BF"
-
-    # Emojis e pictogramas
-    "\U0001F300-\U0001FAFF"
-
-    # Flags
-    "\U0001F1E6-\U0001F1FF"
-
-    # Variation selectors
-    "\uFE0E-\uFE0F"
-
-    "]",
-    flags=re.UNICODE,
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
-WHITESPACE_RE = re.compile(r"\s+")
+TIMEOUT = 25
+
+# Limites recomendados p/ Merchant (não é “lei”, é prática):
+DESC_MIN = 250
+DESC_MAX = 800
+
+MAX_ADDITIONAL_IMAGES = 10  # Google aceita várias; 10 costuma ser ótimo
 
 
-def clean_description_to_plain_text(raw: str) -> str:
+# =========================
+# HELPERS (TEXTO)
+# =========================
+def strip_html_to_text(raw: str) -> str:
+    """Remove HTML e retorna texto puro."""
     if not raw:
         return ""
-
     raw = html.unescape(raw)
+
+    # Se veio um CSS/HTML “colado” (como no seu caso), mata padrões de CSS comuns
+    raw = re.sub(r"\{[^{}]*\}", " ", raw)  # blocos { ... }
+    raw = re.sub(r"\.[a-zA-Z0-9_-]+\s*\{", " ", raw)  # .classe {
+    raw = re.sub(r"</?style[^>]*>", " ", raw, flags=re.I)
+
     soup = BeautifulSoup(raw, "html.parser")
-
-    for tag in soup(["style", "script", "noscript"]):
-        tag.decompose()
-
     text = soup.get_text(" ", strip=True)
-
-    # Remove padrões típicos de CSS “sobrando” como texto
-    text = re.sub(r"\.[a-zA-Z0-9_-]+\s*\{[^}]*\}", " ", text)  # .classe { ... }
-    text = re.sub(r"[a-zA-Z-]+\s*:\s*[^;]+;", " ", text)      # propriedade: valor;
-
-    text = EMOJI_RE.sub("", text)
-    text = WHITESPACE_RE.sub(" ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
-# =========================
-# URL / IMAGE HELPERS
-# =========================
-SIZE_SEGMENT_RE = re.compile(r"/(\d{2,4})x(\d{2,4})/")
-
-def normalize_url(u: str) -> str:
-    if not u:
+def remove_emojis_and_controls(text: str) -> str:
+    """Remove emojis e caracteres de controle."""
+    if not text:
         return ""
-    u = u.strip()
-    if u.startswith("//"):
-        u = "https:" + u
-    return u
-
-def is_valid_http_url(u: str) -> bool:
-    try:
-        p = urlparse(u)
-        return p.scheme in ("http", "https") and bool(p.netloc)
-    except Exception:
-        return False
-
-def parse_size_from_url(u: str) -> Optional[Tuple[int, int]]:
-    m = SIZE_SEGMENT_RE.search(u)
-    if not m:
-        return None
-    try:
-        return int(m.group(1)), int(m.group(2))
-    except Exception:
-        return None
-
-def replace_size_in_url(u: str, w: int, h: int) -> str:
-    return SIZE_SEGMENT_RE.sub(f"/{w}x{h}/", u, count=1)
-
-def head_exists(url: str, session: requests.Session) -> bool:
-    try:
-        r = session.head(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, allow_redirects=True)
-        return r.status_code == 200
-    except Exception:
-        return False
-
-def try_upgrade_awsli_image_url(u: str, session: requests.Session) -> str:
-    """
-    Se for URL com /<WxH>/ tenta trocar pra tamanhos maiores (1600/1200/1000/800...).
-    Usa HEAD pra confirmar qual existe.
-    """
-    u = normalize_url(u)
-    if "cdn.awsli.com.br" not in u:
-        return u
-
-    size = parse_size_from_url(u)
-    if not size:
-        return u
-
-    cur_w, cur_h = size
-    # Se já é grande, mantém
-    if max(cur_w, cur_h) >= 1000:
-        return u
-
-    # 1) tentar tamanhos quadrados padrão
-    for w, h in PREFERRED_SIZES:
-        candidate = replace_size_in_url(u, w, h)
-        if candidate != u and head_exists(candidate, session):
-            return candidate
-
-    # 2) fallback: tentar manter proporção (dobrar até bater 1200 no maior lado)
-    max_side = max(cur_w, cur_h)
-    if max_side > 0:
-        scale = 1200 / max_side
-        new_w = max(1, int(round(cur_w * scale)))
-        new_h = max(1, int(round(cur_h * scale)))
-        candidate = replace_size_in_url(u, new_w, new_h)
-        if candidate != u and head_exists(candidate, session):
-            return candidate
-
-    return u
-
-def unique_preserve_order(items: List[str]) -> List[str]:
-    seen = set()
+    # remove chars de controle (Cc) e símbolos comuns de emoji
     out = []
-    for x in items:
-        x = normalize_url(x)
-        if not x:
+    for ch in text:
+        cat = unicodedata.category(ch)
+        if cat == "Cc":
             continue
-        if x not in seen:
-            seen.add(x)
-            out.append(x)
-    return out
+        # remove “símbolos” que geralmente incluem emoji/pictogramas
+        if cat in ("So",):
+            continue
+        out.append(ch)
+    text = "".join(out)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
-def filter_small_images(urls: List[str]) -> List[str]:
+
+def normalize_text(text: str) -> str:
+    """Texto final limpo, sem CSS/HTML, sem emoji, sem lixo repetido."""
+    text = strip_html_to_text(text)
+    text = remove_emojis_and_controls(text)
+
+    # remove “restos” típicos do seu CSS inline
+    text = re.sub(r"\b(descricao-produto|tabela-ficha)\b", " ", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def smart_benefits_from_title(title: str) -> list[str]:
+    """Extrai benefícios “inteligentes” baseado em sinais do título."""
+    t = (title or "").lower()
+    benefits = []
+
+    if "pwm" in t:
+        benefits.append("Controle PWM para ajuste preciso de rotação.")
+    if "argb" in t or "a-rgb" in t:
+        benefits.append("Iluminação ARGB para setups gamer.")
+    elif "rgb" in t:
+        benefits.append("Iluminação RGB para personalização do setup.")
+    if "140" in t and "mm" in t:
+        benefits.append("Tamanho 140mm: excelente fluxo de ar com eficiência.")
+    if "120" in t and "mm" in t:
+        benefits.append("Tamanho 120mm: equilíbrio entre desempenho e compatibilidade.")
+    if "p14" in t or "p12" in t:
+        benefits.append("Ideal para gabinete e radiador, com foco em desempenho térmico.")
+    if "silent" in t:
+        benefits.append("Projeto voltado para baixo ruído no uso diário.")
+    if "pro" in t:
+        benefits.append("Linha de alta performance para entusiastas.")
+    if "water" in t or "liquid" in t:
+        benefits.append("Refrigeração líquida para cargas altas e estabilidade térmica.")
+
+    # mantém no máximo 3 pra não virar “spam”
+    return benefits[:3]
+
+
+def build_optimized_description(
+    title: str,
+    brand: str,
+    product_type: str,
+    mpn: str,
+    gtin: str,
+    original_desc_text: str
+) -> str:
     """
-    Remove URLs que continuam pequenas (ex: /64x50/ /300x300/) após upgrade.
-    Se não conseguir ler tamanho, mantém.
+    Gera uma descrição otimizada e curta/forte para Shopping.
+    - Usa dados estruturados (brand/type/mpn)
+    - Usa um resumo do texto original (limpo)
+    - Complementa com benefícios inferidos do título
     """
-    out = []
-    for u in urls:
-        sz = parse_size_from_url(u)
-        if not sz:
-            out.append(u)
-            continue
-        w, h = sz
-        if max(w, h) >= MIN_IMAGE_MAX_SIDE:
-            out.append(u)
-    return out
+    title = (title or "").strip()
+    brand = (brand or "").strip()
+    product_type = (product_type or "").strip()
+    mpn = (mpn or "").strip()
+    gtin = (gtin or "").strip()
+
+    base = []
+
+    # 1) Primeira linha: identificação
+    header_parts = []
+    if title:
+        header_parts.append(title)
+    if brand and brand.lower() not in (title or "").lower():
+        header_parts.append(f"Marca {brand}")
+    if mpn:
+        header_parts.append(f"Modelo/MPN {mpn}")
+    if gtin:
+        header_parts.append(f"EAN {gtin}")
+
+    if header_parts:
+        base.append(" - ".join(header_parts) + ".")
+
+    # 2) Um resumo do texto original (se vier bom)
+    cleaned = normalize_text(original_desc_text)
+
+    # Se o texto original tiver muito “ruído”, pega só o começo de forma segura
+    if cleaned:
+        # corta em um ponto razoável
+        snippet = cleaned[:500]
+        # tenta cortar no último ponto pra não terminar “picado”
+        cut = snippet.rfind(".")
+        if cut > 120:
+            snippet = snippet[:cut+1]
+        base.append(snippet)
+
+    # 3) Benefícios inferidos
+    benefits = smart_benefits_from_title(title)
+    if benefits:
+        base.append(" ".join(benefits))
+
+    # 4) Categoria (ajuda o algoritmo sem virar keyword stuffing)
+    if product_type:
+        base.append(f"Categoria: {product_type}.")
+
+    # monta e limita tamanho
+    final = " ".join([x for x in base if x]).strip()
+    final = remove_emojis_and_controls(final)
+    final = re.sub(r"\s+", " ", final).strip()
+
+    # Se ficou pequeno demais, reforça com uma frase neutra
+    if len(final) < DESC_MIN:
+        extra = "Produto ideal para upgrades de refrigeração com foco em performance e confiabilidade."
+        final = (final + " " + extra).strip()
+
+    # Limita
+    if len(final) > DESC_MAX:
+        final = final[:DESC_MAX].rstrip()
+        # tenta fechar frase
+        last_dot = final.rfind(".")
+        if last_dot > 200:
+            final = final[:last_dot+1]
+
+    return final
 
 
 # =========================
-# PRODUCT PAGE PARSING
+# HELPERS (IMAGENS)
 # =========================
-def extract_jsonld_objects(soup: BeautifulSoup) -> List[Dict[str, Any]]:
-    objs = []
-    for s in soup.find_all("script", attrs={"type": "application/ld+json"}):
-        try:
-            content = s.get_text(strip=True)
-            if not content:
+def force_high_res_cdn(url: str) -> str:
+    """
+    Loja Integrada/AWSLI costuma ter variantes /300x300/, /800x800/, etc.
+    Aqui tentamos forçar 1600x1600 quando aparecer esse padrão no caminho.
+    """
+    if not url:
+        return url
+    # troca apenas se tiver um bloco NxN no path
+    url2 = re.sub(r"/\d{2,4}x\d{2,4}/", "/1600x1600/", url)
+    return url2
+
+
+def extract_gallery_images_from_product_page(product_url: str) -> list[str]:
+    """
+    Extrai imagens do HTML do produto (fallback para pegar galeria).
+    Observação: pode variar conforme tema. Fizemos heurística ampla.
+    """
+    if not product_url:
+        return []
+
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        r = requests.get(product_url, headers=headers, timeout=TIMEOUT)
+        if r.status_code != 200:
+            return []
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        urls = set()
+
+        # 1) og:image
+        og = soup.find("meta", property="og:image")
+        if og and og.get("content"):
+            urls.add(og["content"].strip())
+
+        # 2) imagens em carrosséis comuns
+        for img in soup.select("img"):
+            src = img.get("src") or ""
+            data_src = img.get("data-src") or ""
+            cand = src.strip() or data_src.strip()
+            if not cand:
                 continue
-            data = json.loads(content)
-            if isinstance(data, list):
-                for d in data:
-                    if isinstance(d, dict):
-                        objs.append(d)
-            elif isinstance(data, dict):
-                objs.append(data)
-        except Exception:
-            continue
-    return objs
+            # filtra ícones e thumbnails pequenos típicos
+            if "data:image" in cand:
+                continue
+            if any(x in cand.lower() for x in ["sprite", "logo", "favicon"]):
+                continue
+            # pega só imagens da cdn awsli (comum na LI)
+            if "cdn.awsli.com.br" in cand:
+                urls.add(cand)
 
-def find_product_jsonld(objs: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
-    for obj in objs:
-        if obj.get("@type") == "Product":
-            return obj
-        graph = obj.get("@graph")
-        if isinstance(graph, list):
-            for g in graph:
-                if isinstance(g, dict) and g.get("@type") == "Product":
-                    return g
-    return None
-
-def extract_images_from_product_page(url: str, session: requests.Session) -> List[str]:
-    try:
-        resp = session.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
+        # normaliza e ordena
+        out = []
+        for u in urls:
+            out.append(force_high_res_cdn(u))
+        return list(dict.fromkeys(out))  # preserva ordem sem duplicar
     except Exception:
         return []
 
-    soup = BeautifulSoup(resp.text, "html.parser")
 
-    images: List[str] = []
-
-    # 1) JSON-LD
-    jsonld_objs = extract_jsonld_objects(soup)
-    product = find_product_jsonld(jsonld_objs)
-    if product:
-        img_field = product.get("image")
-        if isinstance(img_field, str):
-            images.append(img_field)
-        elif isinstance(img_field, list):
-            for it in img_field:
-                if isinstance(it, str):
-                    images.append(it)
-
-    # 2) Fallback HTML <img> (galeria)
-    if len(images) < 2:
-        for img in soup.find_all("img"):
-            src = img.get("src") or img.get("data-src") or img.get("data-lazy") or ""
-            src = normalize_url(src)
-            if not src:
-                continue
-            if "cdn.awsli.com.br" in src and "/produto/" in src:
-                images.append(src)
-
-    images = unique_preserve_order(images)
-
-    # Upgrade resolução + filtra thumbs
-    upgraded = []
-    for u in images:
-        if is_valid_http_url(u):
-            upgraded.append(try_upgrade_awsli_image_url(u, session))
-    upgraded = unique_preserve_order(upgraded)
-    upgraded = filter_small_images(upgraded)
-
-    return upgraded
-
-def extract_gtin_from_product_page(url: str, session: requests.Session) -> str:
-    try:
-        resp = session.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-    except Exception:
+# =========================
+# XML HELPERS
+# =========================
+def get_text(el, tag):
+    found = el.find(tag)
+    if found is None or found.text is None:
         return ""
+    return found.text.strip()
 
-    soup = BeautifulSoup(resp.text, "html.parser")
-    jsonld_objs = extract_jsonld_objects(soup)
-    product = find_product_jsonld(jsonld_objs)
-    if not product:
-        return ""
 
-    for k in ("gtin13", "gtin", "gtin14", "gtin12", "gtin8"):
-        v = product.get(k)
-        if isinstance(v, str) and v.strip():
-            return v.strip()
-    return ""
+def set_cdata_text(el, text: str):
+    el.text = etree.CDATA(text)
 
 
 # =========================
-# XML FEED BUILDING
+# MAIN
 # =========================
-def get_text(node: Optional[etree._Element]) -> str:
-    if node is None or node.text is None:
-        return ""
-    return node.text.strip()
-
-def build_output_feed(source_tree: etree._ElementTree, session: requests.Session) -> bytes:
-    nsmap = {"g": "http://base.google.com/ns/1.0"}
-
-    source_root = source_tree.getroot()
-    channel = source_root.find("channel")
-    if channel is None:
-        raise RuntimeError("XML de origem sem <channel>.")
-
-    out_root = etree.Element("rss", version="2.0", nsmap=nsmap)
-    out_channel = etree.SubElement(out_root, "channel")
-
-    title = channel.findtext("title") or "PcCold Produtos"
-    link = channel.findtext("link") or "https://www.pccold.com.br/"
-    desc = channel.findtext("description") or "Feed PcCold Google Merchant"
-
-    etree.SubElement(out_channel, "title").text = title
-    etree.SubElement(out_channel, "link").text = link
-    etree.SubElement(out_channel, "description").text = desc
-
-    def gtag(name: str) -> str:
-        return f"{{{nsmap['g']}}}{name}"
-
-    for item in channel.findall("item"):
-        out_item = etree.SubElement(out_channel, "item")
-
-        src_id = item.find(gtag("id"))
-        src_title = item.find("title")
-        src_link = item.find("link")
-        src_desc = item.find("description")
-
-        sku = get_text(src_id)
-        title_txt = get_text(src_title)
-        link_txt = get_text(src_link)
-
-        # description limpa
-        raw_desc = get_text(src_desc)
-        clean_desc = clean_description_to_plain_text(raw_desc)
-
-        # imagem principal do XML (pode ser 800x800)
-        src_img = item.find(gtag("image_link"))
-        base_img = get_text(src_img)
-
-        # Scrape imagens adicionais (e já faz upgrade/filtro)
-        images = []
-        if link_txt:
-            time.sleep(SLEEP_BETWEEN_PAGES_SEC)
-            images.extend(extract_images_from_product_page(link_txt, session))
-
-        # garante que a imagem do XML também entra, mas tenta upgrade nela também
-        if base_img:
-            base_img_up = try_upgrade_awsli_image_url(base_img, session)
-            images.insert(0, base_img_up)
-
-        images = unique_preserve_order(images)
-        images = filter_small_images(images)
-
-        main_image = images[0] if images else ""
-        additional_images = images[1:] if len(images) > 1 else []
-
-        # GTIN/EAN
-        src_gtin = item.find(gtag("gtin"))
-        gtin = get_text(src_gtin)
-        if not gtin and link_txt:
-            time.sleep(SLEEP_BETWEEN_PAGES_SEC)
-            gtin = extract_gtin_from_product_page(link_txt, session)
-
-        # Outros campos
-        brand = get_text(item.find(gtag("brand")))
-        price = get_text(item.find(gtag("price")))
-        sale_price = get_text(item.find(gtag("sale_price")))
-        availability = get_text(item.find(gtag("availability"))) or "in stock"
-        condition = get_text(item.find(gtag("condition"))) or "new"
-        product_type = get_text(item.find(gtag("product_type")))
-
-        # OUTPUT ITEM
-        etree.SubElement(out_item, gtag("id")).text = sku
-        etree.SubElement(out_item, "title").text = title_txt
-        etree.SubElement(out_item, "link").text = link_txt
-        etree.SubElement(out_item, "description").text = clean_desc
-
-        if main_image:
-            etree.SubElement(out_item, gtag("image_link")).text = main_image
-
-        for u in additional_images[:10]:
-            etree.SubElement(out_item, gtag("additional_image_link")).text = u
-
-        etree.SubElement(out_item, gtag("availability")).text = availability
-        etree.SubElement(out_item, gtag("condition")).text = condition
-
-        if price:
-            etree.SubElement(out_item, gtag("price")).text = price
-        if sale_price:
-            etree.SubElement(out_item, gtag("sale_price")).text = sale_price
-        if brand:
-            etree.SubElement(out_item, gtag("brand")).text = brand
-
-        # MPN = SKU (seu padrão)
-        if sku:
-            etree.SubElement(out_item, gtag("mpn")).text = sku
-
-        if gtin:
-            etree.SubElement(out_item, gtag("gtin")).text = gtin
-
-        if product_type:
-            etree.SubElement(out_item, gtag("product_type")).text = product_type
-
-    return etree.tostring(
-        out_root,
-        encoding="UTF-8",
-        xml_declaration=True,
-        pretty_print=True,
-    )
-
-def main() -> None:
-    session = requests.Session()
-
-    resp = session.get(SOURCE_XML_URL, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+def main():
+    headers = {"User-Agent": USER_AGENT}
+    resp = requests.get(BASE_FEED_URL, headers=headers, timeout=TIMEOUT)
     resp.raise_for_status()
 
-    parser = etree.XMLParser(recover=True)
-    source_root = etree.fromstring(resp.content, parser=parser)
-    source_etree = etree.ElementTree(source_root)
+    parser = etree.XMLParser(recover=True, remove_blank_text=True)
+    root = etree.fromstring(resp.content, parser=parser)
 
-    output_bytes = build_output_feed(source_etree, session)
+    # Namespace g
+    nsmap = root.nsmap.copy()
+    gns = nsmap.get("g")
+    if not gns:
+        # fallback se vier diferente
+        gns = "http://base.google.com/ns/1.0"
+        nsmap["g"] = gns
 
+    g = "{%s}" % gns
+
+    channel = root.find("channel")
+    if channel is None:
+        raise RuntimeError("XML inválido: não encontrei <channel>.")
+
+    items = channel.findall("item")
+    print(f"Itens encontrados no XML base: {len(items)}")
+
+    for item in items:
+        title = get_text(item, "title")
+        link = get_text(item, "link")
+
+        brand = get_text(item, g + "brand")
+        product_type = get_text(item, g + "product_type")
+
+        # ID/SKU
+        pid = get_text(item, g + "id") or get_text(item, "g:id")
+
+        # MPN: se não existir, usa SKU/ID
+        mpn_el = item.find(g + "mpn")
+        if mpn_el is None:
+            mpn_el = etree.SubElement(item, g + "mpn")
+        mpn_el.text = pid
+
+        # GTIN/EAN: mantém se existir; se vier vazio, tenta achar no XML base
+        gtin = get_text(item, g + "gtin")
+
+        # ===== DESCRIÇÃO OTIMIZADA =====
+        desc_el = item.find("description")
+        original_desc = desc_el.text if desc_el is not None and desc_el.text else ""
+        optimized = build_optimized_description(
+            title=title,
+            brand=brand,
+            product_type=product_type,
+            mpn=pid,
+            gtin=gtin,
+            original_desc_text=original_desc
+        )
+        if desc_el is None:
+            desc_el = etree.SubElement(item, "description")
+        set_cdata_text(desc_el, optimized)
+
+        # ===== IMAGENS =====
+        # imagem principal
+        img_el = item.find(g + "image_link")
+        if img_el is not None and img_el.text:
+            img_el.text = force_high_res_cdn(img_el.text.strip())
+
+        # imagens adicionais:
+        # 1) se já existir no base, força high-res e limita quantidade
+        additional = item.findall(g + "additional_image_link")
+        if additional:
+            fixed = []
+            for a in additional:
+                if a.text:
+                    fixed.append(force_high_res_cdn(a.text.strip()))
+            fixed = list(dict.fromkeys(fixed))[:MAX_ADDITIONAL_IMAGES]
+
+            # limpa e recria
+            for a in additional:
+                item.remove(a)
+            for u in fixed:
+                new_a = etree.SubElement(item, g + "additional_image_link")
+                new_a.text = u
+        else:
+            # 2) fallback: pega galeria direto da página do produto
+            gallery = extract_gallery_images_from_product_page(link)
+            gallery = [u for u in gallery if u]  # remove vazios
+
+            # remove a principal da lista, se duplicar
+            main_img = img_el.text.strip() if img_el is not None and img_el.text else ""
+            gallery = [u for u in gallery if u != main_img]
+
+            gallery = gallery[:MAX_ADDITIONAL_IMAGES]
+            for u in gallery:
+                new_a = etree.SubElement(item, g + "additional_image_link")
+                new_a.text = u
+
+        # opcional: garante condition
+        cond_el = item.find(g + "condition")
+        if cond_el is None:
+            cond_el = etree.SubElement(item, g + "condition")
+            cond_el.text = "new"
+
+    # escreve feed final
+    xml_bytes = etree.tostring(
+        root,
+        pretty_print=True,
+        xml_declaration=True,
+        encoding="UTF-8"
+    )
     with open(OUTPUT_FILE, "wb") as f:
-        f.write(output_bytes)
+        f.write(xml_bytes)
 
-    print(f"[OK] Feed gerado: {OUTPUT_FILE}")
-    print(f"[OK] Fonte: {SOURCE_XML_URL}")
+    print(f"Feed gerado: {OUTPUT_FILE}")
+
 
 if __name__ == "__main__":
     main()
