@@ -3,56 +3,7 @@
   <channel>
     <title>PcCold</title>
     <link>https://www.pccold.com.br/</link>
-    <description>Feed PcCold (atualizado em 2026-03-02 08:01:56)</description>
-    <item>
-      <title><![CDATA[Thermal Pad Gelid GP-Ultimate 120mm X 120mm X 0.5mm 15 W/mk]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/thermal-pad-gelid-gp-ultimate-120mm-x-120mm-x-05mm-15-wmk.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Por que você deve comprar este produto?
-Seu console, notebook, SSD NVMe e placa de vídeo está superaquecendo?
-Este produto resolve seu problema. Por que? Porque o thermal pad é responsável por transferir o calor gerado no chip de memória dos equipamentos para o dissipador de calor.
-Se o thermal pad atual não estiver bom o seu equipamento vai superaquecer e por prevenção vai desligar automaticamente quanto atingir uma temperatura muito alta.
-Dicas sobre thermal pad:
-Para escolher um bom thermal pad sempre fique atento a sua condutividade térmica ou (W/mk)
-O que é condutividade térmica?
-Condutividade térmica é uma propriedade específica do material, ou seja, presente no thermal pad para definir qual o desempenho que ele terá na transferência de calor.
-Quanto maior a condutividade térmica mais desempenho o thermal pad possui na transferência de calor do chip de memória para o dissipador de calor.
-Observações: O thermal pad não substitui a pasta térmica, se no seu equipamento já possui pasta térmica e você quiser colocar thermal pad no lugar não vai dar certo.
-O thermal pad é específico para CHIPS DE MEMÓRIA, MOSFETS e VRM.
-Não pode ser usado em processadores.
-Características:
-Marca: Gelid Solutions
-Modelo: GP-Ultimate - TP-GP04-S-A
-EAN: 4897025783058
-Especificações:
-Marca: Gelid Solutions
-Condutividade térmica: 15 w/m-k
-Espessura: 0.5mm
-Tamanho: 120x120mm (12x12cm) - Um quadrado de 12cm por 12cm.
-Densidade: 3,2 (g / cm³)
-Dureza: 60-70 Shore 00
-
-MPN: TP-GP04-S-A | EAN: 4897025783058]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-001-auafls.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-002-lejmrr.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-003-rftfkx.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-004-kwholx.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-005-oqttqy.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-006-ezvqux.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-007-dirixh.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-008-wlcxdx.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-009-jsdqfo.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-010-dcglyd.jpg</g:additional_image_link>
-      <g:price>208.46 BRL</g:price>
-      <g:sale_price>177.19 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>TP-GP04-S-A</g:id>
-      <g:brand>Gelid Solutions</g:brand>
-      <g:product_type>Thermal Pad &gt; Espessura &gt; 0.5 mm</g:product_type>
-      <g:mpn>TP-GP04-S-A</g:mpn>
-      <g:gtin>4897025783058</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
+    <description>Feed PcCold (atualizado em 2026-03-03 08:00:16)</description>
     <item>
       <title><![CDATA[Dissipador de Calor Gelid ICECAP Para SSD M.2 Nvme 2280]]></title>
       <link><![CDATA[https://www.pccold.com.br/produto/dissipador-de-calor-gelid-icecap-para-ssd-m-2-nvme-2280.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
@@ -710,84 +661,6 @@ MPN: ICEGALE12A-B3A | EAN: 1230000071598]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Kit com 3x Cooler FAN Iceberg Thermal IceGale ARGB 120mm Cinza e Azul – ICEGALE12A-A3A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Kit 3× Cooler FAN IceGale ARGB 120 mm – Cinza & Azul (ICEGALE12A-A3A)
-O
-IceGale ARGB 120 mm
-une alto desempenho em ventilação com efeitos visuais de iluminação. Este kit com 3 unidades oferece LEDs ARGB endereçáveis, fluxo de ar elevado e estrutura durável, ideal para quem busca performance térmica e estilo no gabinete.
-Principais Vantagens
-Iluminação ARGB com 16 LEDs endereçáveis para personalização total.
-Velocidade de rotação entre 500 e 2.200 RPM via controle PWM.
-Fluxo de ar de até 94 CFM para máxima circulação.
-Pressão estática de 3,27 mm H₂O, ideal para radiadores e filtros.
-Nível de ruído entre 0 e 38 dBA com função Auto START/STOP.
-Rolamento Dual Ball Bearing com maior durabilidade.
-Estrutura robusta com carcaça rígida e almofadas anti-vibração.
-Ideal Para:
-Usuários que querem um setup gamer com visual moderno, iluminação sincronizada e eficiência de refrigeração para gabinetes e radiadores.
-Inclui na Embalagem:
-3x Cooler FAN IceGale ARGB 120 mm – Cinza & Azul (ICEGALE12A-A3A)
-12x Parafusos de fixação
-
-MPN: ICEGALE12A-A3A | EAN: 1230000071581]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/icegale12a-a3a-txhpaxxij4.webp</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a-6lbtzvgs72.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a-cvck4pvbcg.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a-va2mc9gfp7.jpg</g:additional_image_link>
-      <g:price>358.19 BRL</g:price>
-      <g:sale_price>304.46 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ICEGALE12A-A3A</g:id>
-      <g:brand>Iceberg Thermal</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 120mm</g:product_type>
-      <g:mpn>ICEGALE12A-A3A</g:mpn>
-      <g:gtin>1230000071581</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Kit com 3x Cooler FAN Iceberg Thermal IceGale Silent PWM 120mm Preto – ICEGALE12P-BBT-3A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Kit 3× Cooler FAN Iceberg Thermal IceGale Silent PWM 120 mm – Preto (ICEGALE12P-BBT-3A)
-O
-IceGale Silent PWM 120 mm
-é a escolha ideal para quem deseja resfriamento eficiente e silencioso. Este kit com 3 unidades garante circulação de ar consistente, baixo nível de ruído e confiabilidade a longo prazo, perfeito para gabinetes que precisam de ventilação estável sem abrir mão do silêncio.
-Principais Vantagens
-Nível de ruído reduzido, chegando a apenas 21,8 dBA.
-Velocidade controlada por PWM, variando entre 600 e 1.600 RPM.
-Fluxo de ar de 51 CFM para boa ventilação do gabinete.
-Pressão estática de 1,18 mm H₂O, ideal para gabinetes com filtros.
-Função Auto START/STOP para maior eficiência energética.
-Rolamento Sleeve Bearing com operação suave e confiável.
-Garantia de 10 anos, assegurando tranquilidade ao usuário.
-Ideal Para:
-Usuários que buscam silêncio absoluto no funcionamento do PC, sem abrir mão de boa performance de ventilação em gabinetes de uso diário ou setups gamers intermediários.
-Inclui na Embalagem:
-3x Cooler FAN IceGale Silent PWM 120 mm – Preto (ICEGALE12P-BBT-3A)
-12x Parafusos de fixação
-
-MPN: ICEGALE12P-BBT-3A | EAN: 1230000071857]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-wgaq5tmncl.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-1z12m61r3n.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-i3ef3yggg3.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-lyj1whoy3o.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-md8dxc3nt3.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-o1vwakjsqz.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-q7scwjgwoe.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-y1umm7qd02.jpg</g:additional_image_link>
-      <g:price>346.47 BRL</g:price>
-      <g:sale_price>294.50 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ICEGALE12P-BBT-3A</g:id>
-      <g:brand>Iceberg Thermal</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 120mm</g:product_type>
-      <g:mpn>ICEGALE12P-BBT-3A</g:mpn>
-      <g:gtin>1230000071857</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
       <title><![CDATA[Cooler Para Processador Iceberg Thermal IceSleet X5, 120mm, Azul, ICESLEETX5-00A]]></title>
       <link><![CDATA[https://www.pccold.com.br/cooler-para-processador-iceberg-thermal-icesleet-x5-120mm-azul-icesleetx5-00a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
       <description><![CDATA[Cooler IceSLEET X5 120 mm Azul – ICESLEETX5‑00A
@@ -826,46 +699,6 @@ MPN: ICESLEETX5-00A | EAN: 1230000071291]]></description>
       <g:product_type>Cooler CPU</g:product_type>
       <g:mpn>ICESLEETX5-00A</g:mpn>
       <g:gtin>1230000071291</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Cooler FAN IceGALE Xtra PWM 140mm Preto 2500 RPM 169 CFM]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/cooler-fan-icegale-xtra-pwm-140mm-preto-2500-rpm-169-cfm.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cooler FAN IceGALE Xtra PWM 140 mm – Preto (SKU: 1230000071178)
-O **IceGALE Xtra 140 mm** da Iceberg Thermal é projetado para quem busca desempenho máximo em refrigeração de gabinetes. Com rotação de até 2.500 RPM e fluxo de ar de 169 CFM, entrega ventilação agressiva com controle via PWM para ajustar conforme a demanda térmica.
-Principais Vantagens
-Faixa de velocidade de 500 a 2.500 RPM com controle PWM.
-Fluxo de ar impressionante de até 169 CFM.
-Pressão estática de 4,7 mm H₂O para vencer filtros e obstáculos no fluxo.
-Nível de ruído entre 0 e 47 dBA com função Auto START/STOP.
-Construção robusta em latão rígido com rolamento Dual Ball Bearing para maior durabilidade.
-Balanceamento em dois planos e almofadas antivibração para operação estável.
-Ideal Para:
-Quem exige ventilação intensa em setups exigentes, seja em gabinetes de alto fluxo ou em sistemas com geração de calor elevada, sem abrir mão de controle via PWM.
-Inclui na Embalagem:
-Cooler FAN IceGALE Xtra 140 mm – Preto
-4× Parafusos de fixação
-
-MPN: ICEGALE14D-C0A | EAN: 1230000071178]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547e9364fb8f5.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/20612054723a4392392.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/20612054723c807c42f.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2061205473b26952b68.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547522fa63dc2.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2061205476f5f5725bc.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547850cf03cf3.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/20612054785d7e4bbcd.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547dd52496ef1.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547f50a9460ef.jpg</g:additional_image_link>
-      <g:price>144.63 BRL</g:price>
-      <g:sale_price>122.94 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ICEGALE14D-C0A</g:id>
-      <g:brand>Iceberg Thermal</g:brand>
-      <g:product_type>Ocultar &gt; OFERTAS</g:product_type>
-      <g:mpn>ICEGALE14D-C0A</g:mpn>
-      <g:gtin>1230000071178</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
@@ -1027,6 +860,98 @@ MPN: ACFAN00311A | EAN: 4895265000133]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
+      <title><![CDATA[Thermal Pad ARCTIC TP-3 100mm x 100mm x 1.0mm - ACTPD00053A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/thermal-pad-arctic-tp-3-100mm-x-100mm-x-10mm-actpd00053a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Thermal Pad ARCTIC TP-3 100mm x 100mm x 1.0mm – ACTPD00053A
+O
+Thermal Pad ARCTIC TP-3
+oferece excelente desempenho térmico com facilidade de aplicação e adaptação a superfícies irregulares. Desenvolvido para substituir a pasta térmica em situações específicas, o TP-3 é ideal para notebooks, placas de vídeo, SSDs e qualquer aplicação onde o espaçamento precise ser compensado com material isolante térmico de alta qualidade.
+Principais Vantagens
+Excelente compressibilidade e flexibilidade: preenche lacunas e desníveis com precisão.
+Isolamento elétrico seguro: ideal para aplicações sensíveis em circuitos eletrônicos.
+Aplicação fácil: corte personalizável com tesoura ou estilete.
+Superfície aderente dos dois lados, sem necessidade de cola.
+Ecologicamente correto: livre de metais, não corrosivo e livre de silicone líquido.
+Desempenho térmico otimizado sem depender de valores manipulados de condutividade.
+Nota da ARCTIC sobre Condutividade Térmica
+A ARCTIC optou por não divulgar valores específicos de condutividade térmica em seus thermal pads, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
+performance real e consistente
+com excelente relação custo-benefício.
+Ideal Para:
+Notebooks, placas gráficas, módulos de memória, SSDs, conversores DC-DC, VRMs e outros componentes com espaçamento irregular entre chip e dissipador.
+Inclui na Embalagem:
+1x Thermal Pad ARCTIC TP-3 (100mm x 100mm x 1.0mm)
+Manual de aplicação
+
+MPN: ACTPD00053A | EAN: 4895213703963]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443a88967bf82.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-001-auafls.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682415fb71193bad.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/21668244317572f9836.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/21668244337040dad20.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166824435f855016b5.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443a9df71f102.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443adaf7e4f0b.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443c23c5c74e6.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443e2865b438a.jpg</g:additional_image_link>
+      <g:price>71.63 BRL</g:price>
+      <g:sale_price>60.89 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACTPD00053A</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Thermal Pad &gt; Espessura &gt; 1.0 mm</g:product_type>
+      <g:mpn>ACTPD00053A</g:mpn>
+      <g:gtin>4895213703963</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Pasta Térmica Gelid GC-4 3.5g + Espátula - TC-GC-04-B]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-gelid-gc-4-35g-espatula-tc-gc-04-b.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[A Pasta Térmica de Última Geração
+Criado para usuários profissionais e extremos para fornecer a melhor interface térmica e obter transferência de calor ultraeficiente de sua CPU, GP e Chipset em aplicativos de missão crítica.
+O GC-4 vem com o enchimento térmico sintético de micropartículas aprimorado e a matriz de polímero para garantir a máxima condutividade, preenchimento perfeito de lacunas e viscosidade ideal.
+Também não é condutor elétrico e inclui um aplicador adicional para uma aplicação superfácil.
+Características:
+Marca: Gelid Solutions
+Modelo: GC-4 - TC-GC-04-B
+Especificações:
+Peso da unidade: 3.5g
+Cor: Cinza
+Condutividade Térmica: Por que o GELID não comunica os valores de condutividade térmica?
+A GELID tomou uma decisão consciente de não especificar nenhum valor para a condutividade térmica de sua nova pasta térmica, porque muitos fabricantes inventam, aumentam artificialmente ou embelezam esse valor.
+Temperatura operacional: -30 ° C ~ 150 ° C
+Densidade (g/cm): 2.30
+Viscosidade (Poise): 1000
+Fórmula não conduz eletricidade.
+Não corrosivo e não tóxico.
+Conteúdo da Embalagem:
+1 - Pasta Térmica Gelid GC-4 3.5g + Espátula - TC-GC-04-B
+1 - Aplicador de pasta térmica feito pela Gelid
+
+MPN: TC-GC-04-B | EAN: 4897025783706]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053005fb34c9f.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/135045763/pasta-termica-arctic-mx-4-4g-actcp00031b-001--2--kymzq84c91.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053103b81d41d.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2171460532d693bb9a2.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053909d1b337e.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053ba9c3096bf.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053c305b4681c.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053d2df99d611.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053d89f107bc8.jpg</g:additional_image_link>
+      <g:price>34.24 BRL</g:price>
+      <g:sale_price>29.10 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>TC-GC-04-B</g:id>
+      <g:brand>Gelid Solutions</g:brand>
+      <g:product_type>Pasta Térmica</g:product_type>
+      <g:mpn>TC-GC-04-B</g:mpn>
+      <g:gtin>4897025783706</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
       <title><![CDATA[Cooler para Processador ARCTIC Freezer 7 X CO, 100mm, Intel-AMD, ACFRE00085A]]></title>
       <link><![CDATA[https://www.pccold.com.br/cooler-para-processador-arcticfreezer-7-x-co-100mm-intel-amd-acfre00085a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
       <description><![CDATA[Cooler para Processador ARCTIC Freezer 7 X CO 100mm – ACFRE00085A
@@ -1067,48 +992,6 @@ MPN: ACFRE00085A | EAN: 4895213702485]]></description>
       <g:product_type>Cooler CPU</g:product_type>
       <g:mpn>ACFRE00085A</g:mpn>
       <g:gtin>4895213702485</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Pasta Térmica ARCTIC MX-4 20g - ACTCP00001B]]></title>
-      <link><![CDATA[https://www.pccold.com.br/pasta-termica-arctic-mx-4-20g-actcp00001b?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Pasta Térmica ARCTIC MX-4 20g – ACTCP00001B
-A
-ARCTIC MX-4 20g
-é uma pasta térmica de alto desempenho, composta por micropartículas de carbono que preenchem as microfissuras entre o processador e o dissipador, garantindo excelente condutividade térmica. Sua consistência facilita a aplicação, mesmo para iniciantes, e sua fórmula não condutiva eletricamente assegura segurança total para os componentes.
-Principais Vantagens
-Alta performance térmica para CPUs e GPUs.
-Fácil aplicação, ideal para usuários de todos os níveis.
-Não condutiva eletricamente, evitando riscos de curto-circuito.
-Sem metais, não corrosiva e segura para uso prolongado.
-Disponível em embalagem de 20g, adequada para múltiplas aplicações.
-Nota da ARCTIC sobre Condutividade Térmica
-A ARCTIC optou por não divulgar valores específicos de condutividade térmica em seus thermal pads e pastas térmicas, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
-performance real e consistente
-com excelente relação custo-benefício.
-Inclui na Embalagem:
-1x Pasta Térmica ARCTIC MX-4 20g
-
-MPN: O19-PT-MX-4-20-G | EAN: 4895213701723]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-001-vmjh5jtfr0.png</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-002-fqsi7jo4lj.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-003-o80g2d66dy.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-004-oxsavdrv8m.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-005-9aajfe5n84.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-006-vupymaddg3.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-007-avul5145ez.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-008-ipeap91x1k.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-009-4i23qyw8r8.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-010-az1az38t6l.png</g:additional_image_link>
-      <g:price>92.82 BRL</g:price>
-      <g:sale_price>78.90 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>O19-PT-MX-4-20-G</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Pasta Térmica</g:product_type>
-      <g:mpn>O19-PT-MX-4-20-G</g:mpn>
-      <g:gtin>4895213701723</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
@@ -1197,51 +1080,6 @@ MPN: ACFRE00182A | EAN: 4895265000225]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Cooler FAN Gelid Silent 12 PWM, 120mm, Preto, FN-PX12-18]]></title>
-      <link><![CDATA[https://www.pccold.com.br/cooler-fan-gelid-silent-12-pwm-120mm-preto-fn-px12-18?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cooler FAN Gelid Silent 12 PWM, 120mm, Preto, FN-PX12-18
-Performance Silenciosa e Eficiente para o seu Computador
-O Cooler para Gabinete Gelid Silent 12 é a escolha ideal para manter a temperatura do seu computador estável, sem comprometer o silêncio. Com a inovadora curva PWM inteligente da Gelid, este cooler oferece um desempenho mais eficiente em comparação com os modelos tradicionais. Com um design discreto na cor preta, ele se integra perfeitamente ao seu setup.
-Diferenciais:
-Modelo PWM com velocidade de 600 a 1800 rpm.
-Operação silenciosa para um ambiente de trabalho mais tranquilo.
-Design elegante e discreto que se adapta a qualquer estilo de gabinete.
-Marca renomada no segmento de soluções de refrigeração para PCs.
-Mais sobre o Produto:
-O Gelid Silent 12 utiliza o sistema PWM para ajustar automaticamente a velocidade do cooler de acordo com a necessidade de resfriamento do seu computador, mantendo a temperatura ideal sem gerar ruídos excessivos. Seu design compacto e eficiente garante uma refrigeração adequada para o processador e outros componentes do gabinete.
-Dicas de Uso:
-Para otimizar o desempenho do Cooler para Gabinete Gelid Silent 12, certifique-se de instalá-lo corretamente no local apropriado, garantindo uma circulação de ar eficiente. Além disso, limpe periodicamente o cooler e os demais componentes do gabinete para manter o fluxo de ar desobstruído e prolongar a vida útil do seu computador.
-Ficha Técnica:
-Marca: Gelid Solutions
-Modelo: Silent 12
-Velocidade: 600 - 1800 rpm
-Cor: Preto
-Tipo de Conexão: PWM
-Compatibilidade: Gabinetes de PC
-
-MPN: FN-PX12-18 | EAN: 4897025783874]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--10--uf77m7r9cg.png</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--2--20dgza587a.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--3--r0zsmuwg08.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--4--ak683vhhqa.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--5--fjzpr17ks3.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--6--69bsdx1r7s.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--7--ab4bs0udvu.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--8--cbikswoh8b.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--9--0sq1k9bjhg.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18-ve2kjxrbmp.png</g:additional_image_link>
-      <g:price>41.06 BRL</g:price>
-      <g:sale_price>34.90 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>FN-PX12-18</g:id>
-      <g:brand>Gelid Solutions</g:brand>
-      <g:product_type>Cooler FAN</g:product_type>
-      <g:mpn>FN-PX12-18</g:mpn>
-      <g:gtin>4897025783874</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
       <title><![CDATA[Cooler FAN ARCTIC P14 Pro PST PWM 140mm Branco, ACFAN00317A]]></title>
       <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p14-pro-pst-pwm-140mm-branco-acfan00317a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
       <description><![CDATA[Cooler FAN ARCTIC P14 Pro PST PWM 140 mm Branco
@@ -1307,43 +1145,6 @@ MPN: ICEGALE14-C2A | EAN: 1230000071482]]></description>
       <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
       <g:mpn>ICEGALE14-C2A</g:mpn>
       <g:gtin>1230000071482</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Cooler FAN ARCTIC P14 Pro PWM 140mm Preto, ACFAN00313A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p14-pro-pwm-140mm-preto-acfan00313a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cooler FAN ARCTIC P14 Pro PWM 140 mm Preto
-O
-ARCTIC P14 Pro PWM
-é um cooler fan de 140 mm desenvolvido para alto desempenho em aplicações que exigem fluxo de ar potente e pressão estática consistente. Ideal para uso em radiadores, dissipadores de calor e gabinetes com filtros ou grades de alta restrição, o P14 Pro PWM oferece um equilíbrio excepcional entre performance, silêncio e durabilidade.
-Principais Vantagens
-Fluxo de ar intenso e pressão estática de até 5,2 mm H₂O — ideal para uso em radiadores e áreas restritas.
-Velocidade controlada por PWM entre 400 e 2500 RPM, com modo 0 dB que desliga o fan abaixo de 5% PWM.
-Lâminas otimizadas e quadro reforçado para estabilidade em altas rotações.
-Rolamento Fluid Dynamic Bearing (FDB) para operação extremamente silenciosa e vida útil prolongada.
-Design de alto desempenho com microcontrolador integrado para reduzir vibrações e ruído elétrico.
-Ideal Para:
-Entusiastas e usuários que buscam o máximo desempenho em refrigeração, seja em radiadores de water cooler, dissipadores de CPU de alta densidade ou airflow otimizado em gabinetes premium.
-Inclui na Embalagem:
-1x Cooler FAN ARCTIC P14 Pro PWM 140 mm
-4x Parafusos de fixação
-
-MPN: ACFAN00313A | EAN: 4895265000379]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-002-7sw6dgk62j.webp</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-001-kbgfzqjlck.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-003-18ulnfrcyy.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-004-6brgz50wq4.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-005-h3tbya9ggq.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-006-iupk8gmn3e.webp</g:additional_image_link>
-      <g:price>82.24 BRL</g:price>
-      <g:sale_price>69.90 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ACFAN00313A</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
-      <g:mpn>ACFAN00313A</g:mpn>
-      <g:gtin>4895265000379</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
@@ -1487,94 +1288,6 @@ MPN: ICESLEETG4MD-BBB-00A | EAN: 1230000071673]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Chave Torx T10 Com Furo para Abrir Consoles]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/chave-torx-t10-com-furo-para-abrir-consoles-e-hd-de-desktop.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Está precisando abrir seu console para fazer aquela limpeza?
-Esta chave é ideal para você, com ela você tem acesso ao processador do seu console e isso possibilita você fazer tanto a troca da pasta térmica quanto do thermal pad caso precise.
-Como saber a hora de trocar a pasta térmica?
-Quando você perceber que o seu console está com um barulho no cooler muito alto é a hora certa de fazer a troca da pasta.
-Quando fazer a troca do thermal pad?
-Quando você perceber que ele não está mais com o aspecto de grudar no dedo quando aperta ele.
-Quando ele estiver nesse estado é porque está ressecado e precisa ser trocado.
-Características:
-Tamanho da chave: 10 cm.
-Modelo: Chave Torx T10 com furo
-Para: Abrir consoles
-Cor: Laranja
-Conteúdo da Embalagem:
-1 - Chave Torx T10 com furo
-CARACTERÍSTICAS:
-Chave Torx T10 com furo Para abrir consoles
-Chave ideal para fazer abrir seu console para fazer tanto limpeza quanto a troca da pasta térmica.
-Tamanho da chave: 10 cm.
-
-MPN: N101-TORX-T10 | EAN: 7905745335543]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/1178752873a5c7b1ec5.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/1178752872650398de1.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/117875287582b5a4f37.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/1178752879f8e333ceb.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/117875287a372b71be2.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/117875287addacbd444.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2510606648765a46dfe.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/70126397a3074d77e7.jpg</g:additional_image_link>
-      <g:price>7.84 BRL</g:price>
-      <g:sale_price>6.66 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>N101-TORX-T10</g:id>
-      <g:brand>Sem Marca</g:brand>
-      <g:product_type>Chaves para Manutenção</g:product_type>
-      <g:mpn>N101-TORX-T10</g:mpn>
-      <g:gtin>7905745335543</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Thermal Pad ARCTIC TP-3 100mm x 100mm x 1.0mm - ACTPD00053A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/thermal-pad-arctic-tp-3-100mm-x-100mm-x-10mm-actpd00053a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Thermal Pad ARCTIC TP-3 100mm x 100mm x 1.0mm – ACTPD00053A
-O
-Thermal Pad ARCTIC TP-3
-oferece excelente desempenho térmico com facilidade de aplicação e adaptação a superfícies irregulares. Desenvolvido para substituir a pasta térmica em situações específicas, o TP-3 é ideal para notebooks, placas de vídeo, SSDs e qualquer aplicação onde o espaçamento precise ser compensado com material isolante térmico de alta qualidade.
-Principais Vantagens
-Excelente compressibilidade e flexibilidade: preenche lacunas e desníveis com precisão.
-Isolamento elétrico seguro: ideal para aplicações sensíveis em circuitos eletrônicos.
-Aplicação fácil: corte personalizável com tesoura ou estilete.
-Superfície aderente dos dois lados, sem necessidade de cola.
-Ecologicamente correto: livre de metais, não corrosivo e livre de silicone líquido.
-Desempenho térmico otimizado sem depender de valores manipulados de condutividade.
-Nota da ARCTIC sobre Condutividade Térmica
-A ARCTIC optou por não divulgar valores específicos de condutividade térmica em seus thermal pads, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
-performance real e consistente
-com excelente relação custo-benefício.
-Ideal Para:
-Notebooks, placas gráficas, módulos de memória, SSDs, conversores DC-DC, VRMs e outros componentes com espaçamento irregular entre chip e dissipador.
-Inclui na Embalagem:
-1x Thermal Pad ARCTIC TP-3 (100mm x 100mm x 1.0mm)
-Manual de aplicação
-
-MPN: ACTPD00053A | EAN: 4895213703963]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443a88967bf82.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-001-auafls.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682415fb71193bad.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/21668244317572f9836.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/21668244337040dad20.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166824435f855016b5.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443a9df71f102.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443adaf7e4f0b.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443c23c5c74e6.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216682443e2865b438a.jpg</g:additional_image_link>
-      <g:price>71.63 BRL</g:price>
-      <g:sale_price>60.89 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ACTPD00053A</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Thermal Pad &gt; Espessura &gt; 1.0 mm</g:product_type>
-      <g:mpn>ACTPD00053A</g:mpn>
-      <g:gtin>4895213703963</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
       <title><![CDATA[Pasta Térmica ARCTIC MX-4 45g - ACTCP00024A]]></title>
       <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-4-45g-actcp00024a.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
       <description><![CDATA[Pasta Térmica ARCTIC MX-4 45g – ACTCP00024A
@@ -1618,286 +1331,137 @@ MPN: ACTCP00024A | EAN: 4895213701679]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Cabo Slitter para Cooler FAN com 4 Conectores 4-Pin PWM - ARCTIC, ACCBL00007A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/cabo-slitter-para-cooler-fan-com-4-conectores-4-pin-pwm-arctic-accbl00007a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cabo Splitter ARCTIC 4-Pin PWM – 4 Conectores (ACCBL00007A)
-O
-Splitter 4-Pin PWM da ARCTIC
-permite conectar até quatro ventoinhas a um único conector PWM da placa-mãe, garantindo controle sincronizado de rotação e melhor organização interna do gabinete. Compacto e confiável, é ideal para setups que exigem múltiplos fans.
-Principais Vantagens
-Expande um conector PWM para até 4 conexões de ventoinhas.
-Controle sincronizado de velocidade em todas as ventoinhas.
-Leitura de RPM feita pelo primeiro conector para monitoramento correto.
-Design fino e flexível para fácil gerenciamento de cabos.
-Compatível também com ventoinhas de 3 pinos.
-Ideal Para:
-Usuários que precisam conectar mais ventoinhas no gabinete sem perder o controle PWM, mantendo a instalação organizada e eficiente.
-Inclui na Embalagem:
-1x Cabo Splitter ARCTIC 4-Pin PWM (ACCBL00007A)
-
-MPN: ACCBL00007A | EAN: 4895213702256]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-001-85n2zjxnhv.webp</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-002-swive0ybaw.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-003-xbqt1onu4n.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-004-wtebkq75xs.webp</g:additional_image_link>
-      <g:price>22.24 BRL</g:price>
-      <g:sale_price>18.90 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ACCBL00007A</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
-      <g:mpn>ACCBL00007A</g:mpn>
-      <g:gtin>4895213702256</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Cooler FAN ARCTIC P12 Silent, 120mm, Preto, ACFAN00130A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cooler FAN ARCTIC P12 Silent 120mm Preto – ACFAN00130A
-O
-Cooler FAN ARCTIC P12 Silent 120mm Preto
-foi projetado para quem busca silêncio absoluto sem abrir mão da eficiência. Com rotação fixa de 1050 RPM e rolamento Fluid Dynamic Bearing (FDB), proporciona resfriamento confiável com nível de ruído extremamente baixo, ideal para computadores silenciosos, media centers ou escritórios.
-Principais Vantagens
-Operação ultra silenciosa graças ao controle de rotação fixo e rolamento FDB.
-Fluxo de ar constante com baixa emissão sonora: ideal para ambientes silenciosos.
-Design minimalista em preto para builds discretas e sofisticadas.
-Ideal para gabinetes e dissipadores que não exigem controle dinâmico de rotação.
-Rolamento de alta durabilidade com expectativa de 50.000 horas de uso contínuo.
-Consumo extremamente baixo: apenas 0,08 A.
-Fácil instalação com cabo de 400 mm e conector de 3 pinos.
-Ideal Para:
-Computadores silenciosos, PCs de escritório, estações de trabalho e HTPCs onde a prioridade é eliminar o ruído mantendo a eficiência térmica.
-Inclui na Embalagem:
-1x Cooler FAN ARCTIC P12 Silent 120mm Preto
-4x Parafusos de fixação
-Manual do usuário
-
-MPN: ACFAN00130A | EAN: 4895213701365]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-nryo9k19le.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-5impzmlcgv.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-er3amgah20.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-i2x89hhi8u.jpg</g:additional_image_link>
-      <g:price>42.67 BRL</g:price>
-      <g:sale_price>36.27 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ACFAN00130A</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 120mm</g:product_type>
-      <g:mpn>ACFAN00130A</g:mpn>
-      <g:gtin>4895213701365</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto, ACFAN00268A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/cooler-fan-arctic-p14-slim-pwm-pst-140mm-preto-acfan00268a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto – ACFAN00268A
-O
-Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto
-é a escolha ideal para builds compactas que exigem alto desempenho de resfriamento. Com apenas 16 mm de espessura, alta pressão estática e operação silenciosa, este fan é perfeito para gabinetes SFF, radiadores e locais com espaço restrito.
-Principais Vantagens
-Design ultrafino: apenas 16 mm de espessura, ideal para espaços reduzidos.
-Alta pressão estática: excelente desempenho em radiadores e superfícies restritivas.
-Controle PWM com tecnologia PST: sincronize múltiplos fans com um único sinal.
-Velocidade variável: 150 – 1800 RPM, com 0 RPM abaixo de 5% PWM.
-Rolamento Fluid Dynamic Bearing (FDB): operação silenciosa e maior durabilidade.
-Baixo ruído: apenas 0,3 Sone (~22 dBA).
-Alta eficiência energética e desempenho otimizado.
-Ideal Para:
-Gabinetes SFF, builds minimalistas, radiadores, dissipadores e sistemas que precisam de potência de resfriamento com silêncio e eficiência.
-Inclui na Embalagem:
-1x Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto
-4x Parafusos de fixação
-Manual do usuário
-
-MPN: ACFAN00268A | EAN: 4895213703871]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_01-tksffjmu1u.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_00-1hsf4cszse.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_02-ddpjsidcbo.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_03-cldwds1f9y.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_04_icon-4p02a9wbrw.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_dimensions-pggv2mol78.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_g03-144ikaosqg.jpg</g:additional_image_link>
-      <g:price>70.47 BRL</g:price>
-      <g:sale_price>59.90 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ACFAN00268A</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
-      <g:mpn>ACFAN00268A</g:mpn>
-      <g:gtin>4895213703871</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Pasta Térmica ARCTIC MX-4 8g - ACTCP00008B]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-4-8g-actcp00008b.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Pasta Térmica ARCTIC MX-4 8g – ACTCP00008B
+      <title><![CDATA[Pasta Térmica ARCTIC MX-6 8g - ACTCP00081A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-6-8g-actcp00081a.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Pasta Térmica ARCTIC MX-6 8g – ACTCP00081A
 A
-ARCTIC MX-4 8g
-é uma pasta térmica profissional com alto desempenho para aplicações em processadores e placas gráficas. Sua composição com micropartículas de carbono garante excelente dissipação térmica, segurança total para os componentes e facilidade na aplicação, sem risco de condução elétrica.
+ARCTIC MX-6 8g
+é ideal para quem realiza múltiplas aplicações e busca desempenho térmico elevado com segurança e estabilidade. Sua fórmula avançada garante excelente dissipação de calor em CPUs, GPUs e outros chips de alta performance.
+Em comparação com a popular MX-4, a
+MX-6 oferece até 20% mais desempenho térmico
+, graças à sua menor resistência e maior estabilidade sob carga contínua. É a escolha ideal para sistemas exigentes, overclockers e técnicos que precisam extrair o máximo da dissipação térmica.
 Principais Vantagens
-Alta eficiência térmica com micropartículas de carbono.
-Fórmula segura, não condutiva e livre de metais.
-Consistência ideal para aplicação uniforme e precisa.
-Longa durabilidade e estabilidade térmica.
-Excelente custo-benefício para múltiplas aplicações.
+Desempenho térmico aprimorado com alta durabilidade.
+Aplicação segura: livre de metais e eletricamente não condutiva.
+Textura mais densa para melhor cobertura e contato térmico.
+Versão com 8g: ideal para aplicações frequentes ou múltiplos sistemas.
+Mais eficiência térmica que a MX-4 em até 20%.
+Importante sobre Aplicação
+Devido à maior densidade da fórmula, a aplicação da MX-6 pode exigir um pouco mais de pressão em temperatura ambiente. Para facilitar o processo, recomenda-se deixar a pasta térmica em local aquecido por alguns minutos ou utilizar levemente um secador de cabelo antes da aplicação. Essa prática torna a textura mais maleável, garantindo melhor espalhamento e aproveitamento do produto.
 Nota da ARCTIC sobre Condutividade Térmica
-A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
-performance real e consistente
-com excelente relação custo-benefício.
+A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads. Isso ocorre porque muitos concorrentes exageram ou manipulam esses dados, o que pode levar a conclusões erradas. A ARCTIC prioriza a
+performance prática e validada em testes reais
 Inclui na Embalagem:
-1x Pasta Térmica ARCTIC MX-4 8g
+1x Pasta Térmica ARCTIC MX-6 8g
 
-MPN: ACTCP00008B | EAN: 4895213701662]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349258d2ca553.jpg</g:image_link>
+MPN: ACTCP00081A | EAN: 4895213703932]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100895dccc662928.jpg</g:image_link>
       <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:additional_image_link>
       <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116fa3874559e.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703490ad92311cc.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703493c5dc07b03.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/21667034992144b6b14.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703499c838f7798.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703499dd0c008e4.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349b72755f2f6.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349e038019533.jpg</g:additional_image_link>
-      <g:price>49.06 BRL</g:price>
-      <g:sale_price>41.70 BRL</g:sale_price>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349258d2ca553.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100851926f845b27.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/22110089501b08a606b.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100895c865b4412d.jpg</g:additional_image_link>
+      <g:price>58.71 BRL</g:price>
+      <g:sale_price>49.90 BRL</g:sale_price>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:id>ACTCP00008B</g:id>
+      <g:id>ACTCP00081A</g:id>
       <g:brand>ARCTIC</g:brand>
-      <g:product_type>Ocultar &gt; OFERTAS</g:product_type>
-      <g:mpn>ACTCP00008B</g:mpn>
-      <g:gtin>4895213701662</g:gtin>
+      <g:product_type>Pasta Térmica</g:product_type>
+      <g:mpn>ACTCP00081A</g:mpn>
+      <g:gtin>4895213703932</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Pasta Térmica ARCTIC MX-4 8g + Espátula - ACTCP00059A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-4-8g-espatula-com-85-wmk.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Pasta Térmica ARCTIC MX-4 8g + Espátula – ACTCP00059A
+      <title><![CDATA[Pasta Térmica ARCTIC MX-4 20g - ACTCP00001B]]></title>
+      <link><![CDATA[https://www.pccold.com.br/pasta-termica-arctic-mx-4-20g-actcp00001b?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Pasta Térmica ARCTIC MX-4 20g – ACTCP00001B
 A
-ARCTIC MX-4 8g com Espátula
-é uma solução térmica premium com alta eficiência para resfriamento de CPUs e GPUs. Com micropartículas de carbono em sua composição, garante excelente dissipação térmica, enquanto sua consistência facilita a aplicação uniforme com a espátula inclusa. Não condutiva, livre de metais e com estabilidade a longo prazo.
+ARCTIC MX-4 20g
+é uma pasta térmica de alto desempenho, composta por micropartículas de carbono que preenchem as microfissuras entre o processador e o dissipador, garantindo excelente condutividade térmica. Sua consistência facilita a aplicação, mesmo para iniciantes, e sua fórmula não condutiva eletricamente assegura segurança total para os componentes.
 Principais Vantagens
-Desempenho térmico excepcional com micropartículas de carbono.
-Fórmula não condutiva e segura para uso em todos os componentes.
-Espátula inclusa para aplicação precisa e limpa.
-Longa durabilidade e estabilidade mesmo sob uso contínuo.
-Textura ideal para fácil espalhamento e mínimo desperdício.
+Alta performance térmica para CPUs e GPUs.
+Fácil aplicação, ideal para usuários de todos os níveis.
+Não condutiva eletricamente, evitando riscos de curto-circuito.
+Sem metais, não corrosiva e segura para uso prolongado.
+Disponível em embalagem de 20g, adequada para múltiplas aplicações.
 Nota da ARCTIC sobre Condutividade Térmica
-A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
+A ARCTIC optou por não divulgar valores específicos de condutividade térmica em seus thermal pads e pastas térmicas, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
 performance real e consistente
 com excelente relação custo-benefício.
 Inclui na Embalagem:
-1x Pasta Térmica ARCTIC MX-4 8g
-1x Espátula para aplicação
+1x Pasta Térmica ARCTIC MX-4 20g
 
-MPN: ACTCP00059A | EAN: 4895213703055]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-002-w0k8dkt9bh.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-003-m30o62j0wl.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-004-12m0i9akf2.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-005-5oovngumuk.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-006-9fh8ixe527.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-007-d14c5cf3pt.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-008--2--179bokk8a0.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-009-39d2zxusmq.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-010-iw8buptk9m.png</g:additional_image_link>
-      <g:price>51.09 BRL</g:price>
-      <g:sale_price>43.43 BRL</g:sale_price>
+MPN: O19-PT-MX-4-20-G | EAN: 4895213701723]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-001-vmjh5jtfr0.png</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-002-fqsi7jo4lj.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-003-o80g2d66dy.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-004-oxsavdrv8m.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-005-9aajfe5n84.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-006-vupymaddg3.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-007-avul5145ez.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-008-ipeap91x1k.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-009-4i23qyw8r8.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-010-az1az38t6l.png</g:additional_image_link>
+      <g:price>92.82 BRL</g:price>
+      <g:sale_price>78.90 BRL</g:sale_price>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:id>ACTCP00059A</g:id>
+      <g:id>O19-PT-MX-4-20-G</g:id>
       <g:brand>ARCTIC</g:brand>
-      <g:product_type>Ocultar &gt; OFERTAS</g:product_type>
-      <g:mpn>ACTCP00059A</g:mpn>
-      <g:gtin>4895213703055</g:gtin>
+      <g:product_type>Pasta Térmica</g:product_type>
+      <g:mpn>O19-PT-MX-4-20-G</g:mpn>
+      <g:gtin>4895213701723</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Cooler FAN ARCTIC P14 Pro PST PWM 140mm Preto, ACFAN00314A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p14-pro-pst-pwm-140mm-preto-acfan00314a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Cooler FAN ARCTIC P14 Pro PST PWM 140 mm Preto
-O
-ARCTIC P14 Pro PST PWM
-é um cooler fan de 140 mm que combina desempenho extremo com controle sincronizado. Equipado com a tecnologia
-PST (PWM Sharing Technology)
-, ele permite conectar vários fans em cadeia para que todos reajam de forma idêntica ao sinal PWM da placa-mãe, garantindo equilíbrio perfeito entre resfriamento e silêncio.
-Principais Vantagens
-Tecnologia PST que sincroniza múltiplos fans via PWM, simplificando a gestão térmica.
-Fluxo de ar de até 110 CFM e pressão estática de 5,2 mm H₂O — ideal para radiadores e sistemas exigentes.
-Velocidade controlada entre 400 e 2500 RPM com função 0 dB (desliga abaixo de 5% PWM).
-Rolamento Fluid Dynamic Bearing (FDB) para durabilidade estendida e ruído reduzido.
-Design robusto, pás otimizadas e estrutura reforçada para estabilidade em alta rotação.
-Ideal Para:
-Entusiastas que buscam alto desempenho térmico com controle avançado e instalação simplificada. Perfeito para radiadores de water cooler, dissipadores de CPU de alta densidade e airflow coordenado em gabinetes.
-Inclui na Embalagem:
-1x Cooler FAN ARCTIC P14 Pro PST PWM 140 mm
-4x Parafusos de fixação
-
-MPN: ACFAN00314A | EAN: 4895265000386]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-002-fi0zu9focx.webp</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-001-owudw6jha2.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-003-hb5d9nrp8d.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-004-d4zz47m4ff.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-005-apt6b4q18n.webp</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-006-0glv9p9vhh.webp</g:additional_image_link>
-      <g:price>82.24 BRL</g:price>
-      <g:sale_price>69.90 BRL</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:id>ACFAN00314A</g:id>
-      <g:brand>ARCTIC</g:brand>
-      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
-      <g:mpn>ACFAN00314A</g:mpn>
-      <g:gtin>4895265000386</g:gtin>
-      <g:online_only>y</g:online_only>
-    </item>
-    <item>
-      <title><![CDATA[Pasta Térmica Gelid GC-4 3.5g + Espátula - TC-GC-04-B]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-gelid-gc-4-35g-espatula-tc-gc-04-b.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[A Pasta Térmica de Última Geração
-Criado para usuários profissionais e extremos para fornecer a melhor interface térmica e obter transferência de calor ultraeficiente de sua CPU, GP e Chipset em aplicativos de missão crítica.
-O GC-4 vem com o enchimento térmico sintético de micropartículas aprimorado e a matriz de polímero para garantir a máxima condutividade, preenchimento perfeito de lacunas e viscosidade ideal.
-Também não é condutor elétrico e inclui um aplicador adicional para uma aplicação superfácil.
+      <title><![CDATA[Thermal Pad Gelid GP-Ultimate 120mm X 120mm X 0.5mm 15 W/mk]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/thermal-pad-gelid-gp-ultimate-120mm-x-120mm-x-05mm-15-wmk.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Por que você deve comprar este produto?
+Seu console, notebook, SSD NVMe e placa de vídeo está superaquecendo?
+Este produto resolve seu problema. Por que? Porque o thermal pad é responsável por transferir o calor gerado no chip de memória dos equipamentos para o dissipador de calor.
+Se o thermal pad atual não estiver bom o seu equipamento vai superaquecer e por prevenção vai desligar automaticamente quanto atingir uma temperatura muito alta.
+Dicas sobre thermal pad:
+Para escolher um bom thermal pad sempre fique atento a sua condutividade térmica ou (W/mk)
+O que é condutividade térmica?
+Condutividade térmica é uma propriedade específica do material, ou seja, presente no thermal pad para definir qual o desempenho que ele terá na transferência de calor.
+Quanto maior a condutividade térmica mais desempenho o thermal pad possui na transferência de calor do chip de memória para o dissipador de calor.
+Observações: O thermal pad não substitui a pasta térmica, se no seu equipamento já possui pasta térmica e você quiser colocar thermal pad no lugar não vai dar certo.
+O thermal pad é específico para CHIPS DE MEMÓRIA, MOSFETS e VRM.
+Não pode ser usado em processadores.
 Características:
 Marca: Gelid Solutions
-Modelo: GC-4 - TC-GC-04-B
+Modelo: GP-Ultimate - TP-GP04-S-A
+EAN: 4897025783058
 Especificações:
-Peso da unidade: 3.5g
-Cor: Cinza
-Condutividade Térmica: Por que o GELID não comunica os valores de condutividade térmica?
-A GELID tomou uma decisão consciente de não especificar nenhum valor para a condutividade térmica de sua nova pasta térmica, porque muitos fabricantes inventam, aumentam artificialmente ou embelezam esse valor.
-Temperatura operacional: -30 ° C ~ 150 ° C
-Densidade (g/cm): 2.30
-Viscosidade (Poise): 1000
-Fórmula não conduz eletricidade.
-Não corrosivo e não tóxico.
-Conteúdo da Embalagem:
-1 - Pasta Térmica Gelid GC-4 3.5g + Espátula - TC-GC-04-B
-1 - Aplicador de pasta térmica feito pela Gelid
+Marca: Gelid Solutions
+Condutividade térmica: 15 w/m-k
+Espessura: 0.5mm
+Tamanho: 120x120mm (12x12cm) - Um quadrado de 12cm por 12cm.
+Densidade: 3,2 (g / cm³)
+Dureza: 60-70 Shore 00
 
-MPN: TC-GC-04-B | EAN: 4897025783706]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053005fb34c9f.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/135045763/pasta-termica-arctic-mx-4-4g-actcp00031b-001--2--kymzq84c91.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053103b81d41d.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2171460532d693bb9a2.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053909d1b337e.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053ba9c3096bf.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053c305b4681c.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053d2df99d611.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/217146053d89f107bc8.jpg</g:additional_image_link>
-      <g:price>34.24 BRL</g:price>
-      <g:sale_price>29.10 BRL</g:sale_price>
+MPN: TP-GP04-S-A | EAN: 4897025783058]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-001-auafls.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-002-lejmrr.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-003-rftfkx.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-004-kwholx.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-005-oqttqy.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-006-ezvqux.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-007-dirixh.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-008-wlcxdx.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-009-jsdqfo.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/127240451/thermal-pad-gelid-gp-ultimate-0-5mm-tp-gp04-s-a-010-dcglyd.jpg</g:additional_image_link>
+      <g:price>208.46 BRL</g:price>
+      <g:sale_price>177.19 BRL</g:sale_price>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:id>TC-GC-04-B</g:id>
+      <g:id>TP-GP04-S-A</g:id>
       <g:brand>Gelid Solutions</g:brand>
-      <g:product_type>Pasta Térmica</g:product_type>
-      <g:mpn>TC-GC-04-B</g:mpn>
-      <g:gtin>4897025783706</g:gtin>
+      <g:product_type>Thermal Pad &gt; Espessura &gt; 0.5 mm</g:product_type>
+      <g:mpn>TP-GP04-S-A</g:mpn>
+      <g:gtin>4897025783058</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
@@ -1945,46 +1509,448 @@ MPN: N36-TORX-T8 | EAN: 7898723280006]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Pasta Térmica ARCTIC MX-6 8g - ACTCP00081A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-6-8g-actcp00081a.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Pasta Térmica ARCTIC MX-6 8g – ACTCP00081A
+      <title><![CDATA[Kit com 3x Cooler FAN Iceberg Thermal IceGale ARGB 120mm Cinza e Azul – ICEGALE12A-A3A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Kit 3× Cooler FAN IceGale ARGB 120 mm – Cinza & Azul (ICEGALE12A-A3A)
+O
+IceGale ARGB 120 mm
+une alto desempenho em ventilação com efeitos visuais de iluminação. Este kit com 3 unidades oferece LEDs ARGB endereçáveis, fluxo de ar elevado e estrutura durável, ideal para quem busca performance térmica e estilo no gabinete.
+Principais Vantagens
+Iluminação ARGB com 16 LEDs endereçáveis para personalização total.
+Velocidade de rotação entre 500 e 2.200 RPM via controle PWM.
+Fluxo de ar de até 94 CFM para máxima circulação.
+Pressão estática de 3,27 mm H₂O, ideal para radiadores e filtros.
+Nível de ruído entre 0 e 38 dBA com função Auto START/STOP.
+Rolamento Dual Ball Bearing com maior durabilidade.
+Estrutura robusta com carcaça rígida e almofadas anti-vibração.
+Ideal Para:
+Usuários que querem um setup gamer com visual moderno, iluminação sincronizada e eficiência de refrigeração para gabinetes e radiadores.
+Inclui na Embalagem:
+3x Cooler FAN IceGale ARGB 120 mm – Cinza & Azul (ICEGALE12A-A3A)
+12x Parafusos de fixação
+
+MPN: ICEGALE12A-A3A | EAN: 1230000071581]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/icegale12a-a3a-txhpaxxij4.webp</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a-6lbtzvgs72.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a-cvck4pvbcg.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335753556/kit-ventoinhas-iceberg-thermal-icegale-argb-3x120mm-cinza-e-azul-icegale12a-a3a-va2mc9gfp7.jpg</g:additional_image_link>
+      <g:price>358.19 BRL</g:price>
+      <g:sale_price>304.46 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ICEGALE12A-A3A</g:id>
+      <g:brand>Iceberg Thermal</g:brand>
+      <g:product_type>Cooler FAN &gt; FAN 120mm</g:product_type>
+      <g:mpn>ICEGALE12A-A3A</g:mpn>
+      <g:gtin>1230000071581</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Kit com 3x Cooler FAN Iceberg Thermal IceGale Silent PWM 120mm Preto – ICEGALE12P-BBT-3A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Kit 3× Cooler FAN Iceberg Thermal IceGale Silent PWM 120 mm – Preto (ICEGALE12P-BBT-3A)
+O
+IceGale Silent PWM 120 mm
+é a escolha ideal para quem deseja resfriamento eficiente e silencioso. Este kit com 3 unidades garante circulação de ar consistente, baixo nível de ruído e confiabilidade a longo prazo, perfeito para gabinetes que precisam de ventilação estável sem abrir mão do silêncio.
+Principais Vantagens
+Nível de ruído reduzido, chegando a apenas 21,8 dBA.
+Velocidade controlada por PWM, variando entre 600 e 1.600 RPM.
+Fluxo de ar de 51 CFM para boa ventilação do gabinete.
+Pressão estática de 1,18 mm H₂O, ideal para gabinetes com filtros.
+Função Auto START/STOP para maior eficiência energética.
+Rolamento Sleeve Bearing com operação suave e confiável.
+Garantia de 10 anos, assegurando tranquilidade ao usuário.
+Ideal Para:
+Usuários que buscam silêncio absoluto no funcionamento do PC, sem abrir mão de boa performance de ventilação em gabinetes de uso diário ou setups gamers intermediários.
+Inclui na Embalagem:
+3x Cooler FAN IceGale Silent PWM 120 mm – Preto (ICEGALE12P-BBT-3A)
+12x Parafusos de fixação
+
+MPN: ICEGALE12P-BBT-3A | EAN: 1230000071857]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-wgaq5tmncl.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-1z12m61r3n.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-i3ef3yggg3.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-lyj1whoy3o.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-md8dxc3nt3.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-o1vwakjsqz.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-q7scwjgwoe.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/335756371/kit-ventoinhas-iceberg-thermal-icegale-silent-pwm-3x120mm-preto-icegale12p-bbt-3-y1umm7qd02.jpg</g:additional_image_link>
+      <g:price>346.47 BRL</g:price>
+      <g:sale_price>294.50 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ICEGALE12P-BBT-3A</g:id>
+      <g:brand>Iceberg Thermal</g:brand>
+      <g:product_type>Cooler FAN &gt; FAN 120mm</g:product_type>
+      <g:mpn>ICEGALE12P-BBT-3A</g:mpn>
+      <g:gtin>1230000071857</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Pasta Térmica ARCTIC MX-4 8g - ACTCP00008B]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-4-8g-actcp00008b.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Pasta Térmica ARCTIC MX-4 8g – ACTCP00008B
 A
-ARCTIC MX-6 8g
-é ideal para quem realiza múltiplas aplicações e busca desempenho térmico elevado com segurança e estabilidade. Sua fórmula avançada garante excelente dissipação de calor em CPUs, GPUs e outros chips de alta performance.
+ARCTIC MX-4 8g
+é uma pasta térmica profissional com alto desempenho para aplicações em processadores e placas gráficas. Sua composição com micropartículas de carbono garante excelente dissipação térmica, segurança total para os componentes e facilidade na aplicação, sem risco de condução elétrica.
+Principais Vantagens
+Alta eficiência térmica com micropartículas de carbono.
+Fórmula segura, não condutiva e livre de metais.
+Consistência ideal para aplicação uniforme e precisa.
+Longa durabilidade e estabilidade térmica.
+Excelente custo-benefício para múltiplas aplicações.
+Nota da ARCTIC sobre Condutividade Térmica
+A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
+performance real e consistente
+com excelente relação custo-benefício.
+Inclui na Embalagem:
+1x Pasta Térmica ARCTIC MX-4 8g
+
+MPN: ACTCP00008B | EAN: 4895213701662]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349258d2ca553.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116fa3874559e.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703490ad92311cc.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703493c5dc07b03.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/21667034992144b6b14.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703499c838f7798.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2166703499dd0c008e4.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349b72755f2f6.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349e038019533.jpg</g:additional_image_link>
+      <g:price>49.06 BRL</g:price>
+      <g:sale_price>41.70 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACTCP00008B</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Ocultar &gt; OFERTAS</g:product_type>
+      <g:mpn>ACTCP00008B</g:mpn>
+      <g:gtin>4895213701662</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto, ACFAN00268A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/cooler-fan-arctic-p14-slim-pwm-pst-140mm-preto-acfan00268a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto – ACFAN00268A
+O
+Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto
+é a escolha ideal para builds compactas que exigem alto desempenho de resfriamento. Com apenas 16 mm de espessura, alta pressão estática e operação silenciosa, este fan é perfeito para gabinetes SFF, radiadores e locais com espaço restrito.
+Principais Vantagens
+Design ultrafino: apenas 16 mm de espessura, ideal para espaços reduzidos.
+Alta pressão estática: excelente desempenho em radiadores e superfícies restritivas.
+Controle PWM com tecnologia PST: sincronize múltiplos fans com um único sinal.
+Velocidade variável: 150 – 1800 RPM, com 0 RPM abaixo de 5% PWM.
+Rolamento Fluid Dynamic Bearing (FDB): operação silenciosa e maior durabilidade.
+Baixo ruído: apenas 0,3 Sone (~22 dBA).
+Alta eficiência energética e desempenho otimizado.
+Ideal Para:
+Gabinetes SFF, builds minimalistas, radiadores, dissipadores e sistemas que precisam de potência de resfriamento com silêncio e eficiência.
+Inclui na Embalagem:
+1x Cooler FAN ARCTIC P14 SLIM PWM PST 140mm Preto
+4x Parafusos de fixação
+Manual do usuário
+
+MPN: ACFAN00268A | EAN: 4895213703871]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_01-tksffjmu1u.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_00-1hsf4cszse.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_02-ddpjsidcbo.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_03-cldwds1f9y.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_04_icon-4p02a9wbrw.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_dimensions-pggv2mol78.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/228897162/p14_slim_pwm_pst_g03-144ikaosqg.jpg</g:additional_image_link>
+      <g:price>70.47 BRL</g:price>
+      <g:sale_price>59.90 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACFAN00268A</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
+      <g:mpn>ACFAN00268A</g:mpn>
+      <g:gtin>4895213703871</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Cooler FAN Gelid Silent 12 PWM, 120mm, Preto, FN-PX12-18]]></title>
+      <link><![CDATA[https://www.pccold.com.br/cooler-fan-gelid-silent-12-pwm-120mm-preto-fn-px12-18?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cooler FAN Gelid Silent 12 PWM, 120mm, Preto, FN-PX12-18
+Performance Silenciosa e Eficiente para o seu Computador
+O Cooler para Gabinete Gelid Silent 12 é a escolha ideal para manter a temperatura do seu computador estável, sem comprometer o silêncio. Com a inovadora curva PWM inteligente da Gelid, este cooler oferece um desempenho mais eficiente em comparação com os modelos tradicionais. Com um design discreto na cor preta, ele se integra perfeitamente ao seu setup.
+Diferenciais:
+Modelo PWM com velocidade de 600 a 1800 rpm.
+Operação silenciosa para um ambiente de trabalho mais tranquilo.
+Design elegante e discreto que se adapta a qualquer estilo de gabinete.
+Marca renomada no segmento de soluções de refrigeração para PCs.
+Mais sobre o Produto:
+O Gelid Silent 12 utiliza o sistema PWM para ajustar automaticamente a velocidade do cooler de acordo com a necessidade de resfriamento do seu computador, mantendo a temperatura ideal sem gerar ruídos excessivos. Seu design compacto e eficiente garante uma refrigeração adequada para o processador e outros componentes do gabinete.
+Dicas de Uso:
+Para otimizar o desempenho do Cooler para Gabinete Gelid Silent 12, certifique-se de instalá-lo corretamente no local apropriado, garantindo uma circulação de ar eficiente. Além disso, limpe periodicamente o cooler e os demais componentes do gabinete para manter o fluxo de ar desobstruído e prolongar a vida útil do seu computador.
+Ficha Técnica:
+Marca: Gelid Solutions
+Modelo: Silent 12
+Velocidade: 600 - 1800 rpm
+Cor: Preto
+Tipo de Conexão: PWM
+Compatibilidade: Gabinetes de PC
+
+MPN: FN-PX12-18 | EAN: 4897025783874]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--10--uf77m7r9cg.png</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--2--20dgza587a.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--3--r0zsmuwg08.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--4--ak683vhhqa.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--5--fjzpr17ks3.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--6--69bsdx1r7s.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--7--ab4bs0udvu.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--8--cbikswoh8b.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18--9--0sq1k9bjhg.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/282233885/cooler-fan-gelid-silent-12-pwm--120mm--preto--fn-px12-18-ve2kjxrbmp.png</g:additional_image_link>
+      <g:price>41.06 BRL</g:price>
+      <g:sale_price>34.90 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>FN-PX12-18</g:id>
+      <g:brand>Gelid Solutions</g:brand>
+      <g:product_type>Cooler FAN</g:product_type>
+      <g:mpn>FN-PX12-18</g:mpn>
+      <g:gtin>4897025783874</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Cabo Slitter para Cooler FAN com 4 Conectores 4-Pin PWM - ARCTIC, ACCBL00007A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/cabo-slitter-para-cooler-fan-com-4-conectores-4-pin-pwm-arctic-accbl00007a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cabo Splitter ARCTIC 4-Pin PWM – 4 Conectores (ACCBL00007A)
+O
+Splitter 4-Pin PWM da ARCTIC
+permite conectar até quatro ventoinhas a um único conector PWM da placa-mãe, garantindo controle sincronizado de rotação e melhor organização interna do gabinete. Compacto e confiável, é ideal para setups que exigem múltiplos fans.
+Principais Vantagens
+Expande um conector PWM para até 4 conexões de ventoinhas.
+Controle sincronizado de velocidade em todas as ventoinhas.
+Leitura de RPM feita pelo primeiro conector para monitoramento correto.
+Design fino e flexível para fácil gerenciamento de cabos.
+Compatível também com ventoinhas de 3 pinos.
+Ideal Para:
+Usuários que precisam conectar mais ventoinhas no gabinete sem perder o controle PWM, mantendo a instalação organizada e eficiente.
+Inclui na Embalagem:
+1x Cabo Splitter ARCTIC 4-Pin PWM (ACCBL00007A)
+
+MPN: ACCBL00007A | EAN: 4895213702256]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-001-85n2zjxnhv.webp</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-002-swive0ybaw.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-003-xbqt1onu4n.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/372827353/arctic-pst-cable-rev2-004-wtebkq75xs.webp</g:additional_image_link>
+      <g:price>22.24 BRL</g:price>
+      <g:sale_price>18.90 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACCBL00007A</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
+      <g:mpn>ACCBL00007A</g:mpn>
+      <g:gtin>4895213702256</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Cooler FAN ARCTIC P14 Pro PWM 140mm Preto, ACFAN00313A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p14-pro-pwm-140mm-preto-acfan00313a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cooler FAN ARCTIC P14 Pro PWM 140 mm Preto
+O
+ARCTIC P14 Pro PWM
+é um cooler fan de 140 mm desenvolvido para alto desempenho em aplicações que exigem fluxo de ar potente e pressão estática consistente. Ideal para uso em radiadores, dissipadores de calor e gabinetes com filtros ou grades de alta restrição, o P14 Pro PWM oferece um equilíbrio excepcional entre performance, silêncio e durabilidade.
+Principais Vantagens
+Fluxo de ar intenso e pressão estática de até 5,2 mm H₂O — ideal para uso em radiadores e áreas restritas.
+Velocidade controlada por PWM entre 400 e 2500 RPM, com modo 0 dB que desliga o fan abaixo de 5% PWM.
+Lâminas otimizadas e quadro reforçado para estabilidade em altas rotações.
+Rolamento Fluid Dynamic Bearing (FDB) para operação extremamente silenciosa e vida útil prolongada.
+Design de alto desempenho com microcontrolador integrado para reduzir vibrações e ruído elétrico.
+Ideal Para:
+Entusiastas e usuários que buscam o máximo desempenho em refrigeração, seja em radiadores de water cooler, dissipadores de CPU de alta densidade ou airflow otimizado em gabinetes premium.
+Inclui na Embalagem:
+1x Cooler FAN ARCTIC P14 Pro PWM 140 mm
+4x Parafusos de fixação
+
+MPN: ACFAN00313A | EAN: 4895265000379]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-002-7sw6dgk62j.webp</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-001-kbgfzqjlck.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-003-18ulnfrcyy.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-004-6brgz50wq4.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-005-h3tbya9ggq.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109109/arctic-p14-pro-pwm-140mm-preto-006-iupk8gmn3e.webp</g:additional_image_link>
+      <g:price>82.24 BRL</g:price>
+      <g:sale_price>69.90 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACFAN00313A</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
+      <g:mpn>ACFAN00313A</g:mpn>
+      <g:gtin>4895265000379</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Chave Torx T10 Com Furo para Abrir Consoles]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/chave-torx-t10-com-furo-para-abrir-consoles-e-hd-de-desktop.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Está precisando abrir seu console para fazer aquela limpeza?
+Esta chave é ideal para você, com ela você tem acesso ao processador do seu console e isso possibilita você fazer tanto a troca da pasta térmica quanto do thermal pad caso precise.
+Como saber a hora de trocar a pasta térmica?
+Quando você perceber que o seu console está com um barulho no cooler muito alto é a hora certa de fazer a troca da pasta.
+Quando fazer a troca do thermal pad?
+Quando você perceber que ele não está mais com o aspecto de grudar no dedo quando aperta ele.
+Quando ele estiver nesse estado é porque está ressecado e precisa ser trocado.
+Características:
+Tamanho da chave: 10 cm.
+Modelo: Chave Torx T10 com furo
+Para: Abrir consoles
+Cor: Laranja
+Conteúdo da Embalagem:
+1 - Chave Torx T10 com furo
+CARACTERÍSTICAS:
+Chave Torx T10 com furo Para abrir consoles
+Chave ideal para fazer abrir seu console para fazer tanto limpeza quanto a troca da pasta térmica.
+Tamanho da chave: 10 cm.
+
+MPN: N101-TORX-T10 | EAN: 7905745335543]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/1178752873a5c7b1ec5.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/1178752872650398de1.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/117875287582b5a4f37.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/1178752879f8e333ceb.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/117875287a372b71be2.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/117875287addacbd444.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2510606648765a46dfe.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/70126397a3074d77e7.jpg</g:additional_image_link>
+      <g:price>7.84 BRL</g:price>
+      <g:sale_price>6.66 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>N101-TORX-T10</g:id>
+      <g:brand>Sem Marca</g:brand>
+      <g:product_type>Chaves para Manutenção</g:product_type>
+      <g:mpn>N101-TORX-T10</g:mpn>
+      <g:gtin>7905745335543</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Cooler FAN IceGALE Xtra PWM 140mm Preto 2500 RPM 169 CFM]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/cooler-fan-icegale-xtra-pwm-140mm-preto-2500-rpm-169-cfm.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cooler FAN IceGALE Xtra PWM 140 mm – Preto (SKU: 1230000071178)
+O **IceGALE Xtra 140 mm** da Iceberg Thermal é projetado para quem busca desempenho máximo em refrigeração de gabinetes. Com rotação de até 2.500 RPM e fluxo de ar de 169 CFM, entrega ventilação agressiva com controle via PWM para ajustar conforme a demanda térmica.
+Principais Vantagens
+Faixa de velocidade de 500 a 2.500 RPM com controle PWM.
+Fluxo de ar impressionante de até 169 CFM.
+Pressão estática de 4,7 mm H₂O para vencer filtros e obstáculos no fluxo.
+Nível de ruído entre 0 e 47 dBA com função Auto START/STOP.
+Construção robusta em latão rígido com rolamento Dual Ball Bearing para maior durabilidade.
+Balanceamento em dois planos e almofadas antivibração para operação estável.
+Ideal Para:
+Quem exige ventilação intensa em setups exigentes, seja em gabinetes de alto fluxo ou em sistemas com geração de calor elevada, sem abrir mão de controle via PWM.
+Inclui na Embalagem:
+Cooler FAN IceGALE Xtra 140 mm – Preto
+4× Parafusos de fixação
+
+MPN: ICEGALE14D-C0A | EAN: 1230000071178]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547e9364fb8f5.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/20612054723a4392392.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/20612054723c807c42f.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2061205473b26952b68.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547522fa63dc2.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/2061205476f5f5725bc.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547850cf03cf3.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/20612054785d7e4bbcd.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547dd52496ef1.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/206120547f50a9460ef.jpg</g:additional_image_link>
+      <g:price>144.63 BRL</g:price>
+      <g:sale_price>122.94 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ICEGALE14D-C0A</g:id>
+      <g:brand>Iceberg Thermal</g:brand>
+      <g:product_type>Ocultar &gt; OFERTAS</g:product_type>
+      <g:mpn>ICEGALE14D-C0A</g:mpn>
+      <g:gtin>1230000071178</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Pasta Térmica ARCTIC MX-6 2g - ACTCP00079A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-6-2g-actcp00079a.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Pasta Térmica ARCTIC MX-6 2g – ACTCP00079A
+A
+ARCTIC MX-6 2g
+é a nova geração da série de pastas térmicas premiadas da marca, projetada para quem exige máxima eficiência com aplicação prática e segura. Sua fórmula de alta estabilidade térmica entrega desempenho superior em longas sessões de uso, com compatibilidade total para CPUs, GPUs, notebooks e consoles.
 Em comparação com a popular MX-4, a
 MX-6 oferece até 20% mais desempenho térmico
 , graças à sua menor resistência e maior estabilidade sob carga contínua. É a escolha ideal para sistemas exigentes, overclockers e técnicos que precisam extrair o máximo da dissipação térmica.
 Principais Vantagens
-Desempenho térmico aprimorado com alta durabilidade.
-Aplicação segura: livre de metais e eletricamente não condutiva.
-Textura mais densa para melhor cobertura e contato térmico.
-Versão com 8g: ideal para aplicações frequentes ou múltiplos sistemas.
-Mais eficiência térmica que a MX-4 em até 20%.
+Desempenho térmico otimizado com baixa resistência.
+Mais eficiência que a MX-4, com até 20% de melhoria térmica.
+Fórmula estável e segura, livre de partículas metálicas.
+Textura aprimorada para melhor cobertura e adesão.
+Não condutiva eletricamente, protegendo seus componentes.
 Importante sobre Aplicação
 Devido à maior densidade da fórmula, a aplicação da MX-6 pode exigir um pouco mais de pressão em temperatura ambiente. Para facilitar o processo, recomenda-se deixar a pasta térmica em local aquecido por alguns minutos ou utilizar levemente um secador de cabelo antes da aplicação. Essa prática torna a textura mais maleável, garantindo melhor espalhamento e aproveitamento do produto.
 Nota da ARCTIC sobre Condutividade Térmica
 A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads. Isso ocorre porque muitos concorrentes exageram ou manipulam esses dados, o que pode levar a conclusões erradas. A ARCTIC prioriza a
 performance prática e validada em testes reais
 Inclui na Embalagem:
-1x Pasta Térmica ARCTIC MX-6 8g
+1x Pasta Térmica ARCTIC MX-6 2g
 
-MPN: ACTCP00081A | EAN: 4895213703932]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100895dccc662928.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116fa3874559e.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/216670349258d2ca553.jpg</g:additional_image_link>
+MPN: ACTCP00079A | EAN: 4895213703918]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116fa3874559e.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-001-vmjh5jtfr0.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/18795711633e37dd305.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116ba818427d6.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100822fab100743c.jpg</g:additional_image_link>
       <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100851926f845b27.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/22110089501b08a606b.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100895c865b4412d.jpg</g:additional_image_link>
-      <g:price>58.71 BRL</g:price>
-      <g:sale_price>49.90 BRL</g:sale_price>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100895dccc662928.jpg</g:additional_image_link>
+      <g:price>33.26 BRL</g:price>
+      <g:sale_price>28.27 BRL</g:sale_price>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:id>ACTCP00081A</g:id>
+      <g:id>ACTCP00079A</g:id>
       <g:brand>ARCTIC</g:brand>
       <g:product_type>Pasta Térmica</g:product_type>
-      <g:mpn>ACTCP00081A</g:mpn>
-      <g:gtin>4895213703932</g:gtin>
+      <g:mpn>ACTCP00079A</g:mpn>
+      <g:gtin>4895213703918</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Pasta Térmica ARCTIC MX-4 8g + Espátula - ACTCP00059A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-4-8g-espatula-com-85-wmk.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Pasta Térmica ARCTIC MX-4 8g + Espátula – ACTCP00059A
+A
+ARCTIC MX-4 8g com Espátula
+é uma solução térmica premium com alta eficiência para resfriamento de CPUs e GPUs. Com micropartículas de carbono em sua composição, garante excelente dissipação térmica, enquanto sua consistência facilita a aplicação uniforme com a espátula inclusa. Não condutiva, livre de metais e com estabilidade a longo prazo.
+Principais Vantagens
+Desempenho térmico excepcional com micropartículas de carbono.
+Fórmula não condutiva e segura para uso em todos os componentes.
+Espátula inclusa para aplicação precisa e limpa.
+Longa durabilidade e estabilidade mesmo sob uso contínuo.
+Textura ideal para fácil espalhamento e mínimo desperdício.
+Nota da ARCTIC sobre Condutividade Térmica
+A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads, pois muitos concorrentes exageram ou manipulam esses números, criando expectativas irreais. Em vez disso, a marca foca em entregar
+performance real e consistente
+com excelente relação custo-benefício.
+Inclui na Embalagem:
+1x Pasta Térmica ARCTIC MX-4 8g
+1x Espátula para aplicação
+
+MPN: ACTCP00059A | EAN: 4895213703055]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-001--2--8i3fhmwncq.png</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-002-w0k8dkt9bh.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-003-m30o62j0wl.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-004-12m0i9akf2.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-005-5oovngumuk.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-006-9fh8ixe527.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-007-d14c5cf3pt.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-008--2--179bokk8a0.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-009-39d2zxusmq.png</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/163308497/pasta-termica-arctic-mx-4-8g-actcp00059a-010-iw8buptk9m.png</g:additional_image_link>
+      <g:price>51.09 BRL</g:price>
+      <g:sale_price>43.43 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACTCP00059A</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Ocultar &gt; OFERTAS</g:product_type>
+      <g:mpn>ACTCP00059A</g:mpn>
+      <g:gtin>4895213703055</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
     <item>
@@ -2074,46 +2040,80 @@ MPN: ACTCP00031B | EAN: 4895213702591]]></description>
       <g:online_only>y</g:online_only>
     </item>
     <item>
-      <title><![CDATA[Pasta Térmica ARCTIC MX-6 2g - ACTCP00079A]]></title>
-      <link><![CDATA[https://www.pccold.com.br/produto/pasta-termica-arctic-mx-6-2g-actcp00079a.html?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
-      <description><![CDATA[Pasta Térmica ARCTIC MX-6 2g – ACTCP00079A
-A
-ARCTIC MX-6 2g
-é a nova geração da série de pastas térmicas premiadas da marca, projetada para quem exige máxima eficiência com aplicação prática e segura. Sua fórmula de alta estabilidade térmica entrega desempenho superior em longas sessões de uso, com compatibilidade total para CPUs, GPUs, notebooks e consoles.
-Em comparação com a popular MX-4, a
-MX-6 oferece até 20% mais desempenho térmico
-, graças à sua menor resistência e maior estabilidade sob carga contínua. É a escolha ideal para sistemas exigentes, overclockers e técnicos que precisam extrair o máximo da dissipação térmica.
+      <title><![CDATA[Cooler FAN ARCTIC P14 Pro PST PWM 140mm Preto, ACFAN00314A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p14-pro-pst-pwm-140mm-preto-acfan00314a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cooler FAN ARCTIC P14 Pro PST PWM 140 mm Preto
+O
+ARCTIC P14 Pro PST PWM
+é um cooler fan de 140 mm que combina desempenho extremo com controle sincronizado. Equipado com a tecnologia
+PST (PWM Sharing Technology)
+, ele permite conectar vários fans em cadeia para que todos reajam de forma idêntica ao sinal PWM da placa-mãe, garantindo equilíbrio perfeito entre resfriamento e silêncio.
 Principais Vantagens
-Desempenho térmico otimizado com baixa resistência.
-Mais eficiência que a MX-4, com até 20% de melhoria térmica.
-Fórmula estável e segura, livre de partículas metálicas.
-Textura aprimorada para melhor cobertura e adesão.
-Não condutiva eletricamente, protegendo seus componentes.
-Importante sobre Aplicação
-Devido à maior densidade da fórmula, a aplicação da MX-6 pode exigir um pouco mais de pressão em temperatura ambiente. Para facilitar o processo, recomenda-se deixar a pasta térmica em local aquecido por alguns minutos ou utilizar levemente um secador de cabelo antes da aplicação. Essa prática torna a textura mais maleável, garantindo melhor espalhamento e aproveitamento do produto.
-Nota da ARCTIC sobre Condutividade Térmica
-A ARCTIC optou por não divulgar valores específicos de condutividade térmica em suas pastas térmicas e thermal pads. Isso ocorre porque muitos concorrentes exageram ou manipulam esses dados, o que pode levar a conclusões erradas. A ARCTIC prioriza a
-performance prática e validada em testes reais
+Tecnologia PST que sincroniza múltiplos fans via PWM, simplificando a gestão térmica.
+Fluxo de ar de até 110 CFM e pressão estática de 5,2 mm H₂O — ideal para radiadores e sistemas exigentes.
+Velocidade controlada entre 400 e 2500 RPM com função 0 dB (desliga abaixo de 5% PWM).
+Rolamento Fluid Dynamic Bearing (FDB) para durabilidade estendida e ruído reduzido.
+Design robusto, pás otimizadas e estrutura reforçada para estabilidade em alta rotação.
+Ideal Para:
+Entusiastas que buscam alto desempenho térmico com controle avançado e instalação simplificada. Perfeito para radiadores de water cooler, dissipadores de CPU de alta densidade e airflow coordenado em gabinetes.
 Inclui na Embalagem:
-1x Pasta Térmica ARCTIC MX-6 2g
+1x Cooler FAN ARCTIC P14 Pro PST PWM 140 mm
+4x Parafusos de fixação
 
-MPN: ACTCP00079A | EAN: 4895213703918]]></description>
-      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116fa3874559e.jpg</g:image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/102689873/pasta-termica-arctic-mx-4-20g-actcp00001b-001-vmjh5jtfr0.png</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/18795711633e37dd305.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/187957116ba818427d6.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100822fab100743c.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100851926f845b27.jpg</g:additional_image_link>
-      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/221100895dccc662928.jpg</g:additional_image_link>
-      <g:price>33.26 BRL</g:price>
-      <g:sale_price>28.27 BRL</g:sale_price>
+MPN: ACFAN00314A | EAN: 4895265000386]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-002-fi0zu9focx.webp</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-001-owudw6jha2.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-003-hb5d9nrp8d.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-004-d4zz47m4ff.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-005-apt6b4q18n.webp</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/366109107/arctic-p14-pro-pst-black-006-0glv9p9vhh.webp</g:additional_image_link>
+      <g:price>82.24 BRL</g:price>
+      <g:sale_price>69.90 BRL</g:sale_price>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
-      <g:id>ACTCP00079A</g:id>
+      <g:id>ACFAN00314A</g:id>
       <g:brand>ARCTIC</g:brand>
-      <g:product_type>Pasta Térmica</g:product_type>
-      <g:mpn>ACTCP00079A</g:mpn>
-      <g:gtin>4895213703918</g:gtin>
+      <g:product_type>Cooler FAN &gt; FAN 140mm</g:product_type>
+      <g:mpn>ACFAN00314A</g:mpn>
+      <g:gtin>4895265000386</g:gtin>
+      <g:online_only>y</g:online_only>
+    </item>
+    <item>
+      <title><![CDATA[Cooler FAN ARCTIC P12 Silent, 120mm, Preto, ACFAN00130A]]></title>
+      <link><![CDATA[https://www.pccold.com.br/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant]]></link>
+      <description><![CDATA[Cooler FAN ARCTIC P12 Silent 120mm Preto – ACFAN00130A
+O
+Cooler FAN ARCTIC P12 Silent 120mm Preto
+foi projetado para quem busca silêncio absoluto sem abrir mão da eficiência. Com rotação fixa de 1050 RPM e rolamento Fluid Dynamic Bearing (FDB), proporciona resfriamento confiável com nível de ruído extremamente baixo, ideal para computadores silenciosos, media centers ou escritórios.
+Principais Vantagens
+Operação ultra silenciosa graças ao controle de rotação fixo e rolamento FDB.
+Fluxo de ar constante com baixa emissão sonora: ideal para ambientes silenciosos.
+Design minimalista em preto para builds discretas e sofisticadas.
+Ideal para gabinetes e dissipadores que não exigem controle dinâmico de rotação.
+Rolamento de alta durabilidade com expectativa de 50.000 horas de uso contínuo.
+Consumo extremamente baixo: apenas 0,08 A.
+Fácil instalação com cabo de 400 mm e conector de 3 pinos.
+Ideal Para:
+Computadores silenciosos, PCs de escritório, estações de trabalho e HTPCs onde a prioridade é eliminar o ruído mantendo a eficiência térmica.
+Inclui na Embalagem:
+1x Cooler FAN ARCTIC P12 Silent 120mm Preto
+4x Parafusos de fixação
+Manual do usuário
+
+MPN: ACFAN00130A | EAN: 4895213701365]]></description>
+      <g:image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-nryo9k19le.jpg</g:image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-5impzmlcgv.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-er3amgah20.jpg</g:additional_image_link>
+      <g:additional_image_link>https://cdn.awsli.com.br/1600x1600/1272/1272989/produto/302158931/cooler-fan-arctic-p12-silent-120mm-preto-acfan00130a-i2x89hhi8u.jpg</g:additional_image_link>
+      <g:price>42.67 BRL</g:price>
+      <g:sale_price>36.27 BRL</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:id>ACFAN00130A</g:id>
+      <g:brand>ARCTIC</g:brand>
+      <g:product_type>Cooler FAN &gt; FAN 120mm</g:product_type>
+      <g:mpn>ACFAN00130A</g:mpn>
+      <g:gtin>4895213701365</g:gtin>
       <g:online_only>y</g:online_only>
     </item>
   </channel>
