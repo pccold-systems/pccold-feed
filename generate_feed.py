@@ -427,6 +427,10 @@ def build_output_feed(items_data: List[dict]) -> etree._ElementTree:
         # online_only (mantém)
         safe_add(item, "online_only", "y", is_g=True)
 
+        # Exclui de canais de loja física (PC Cold é loja online)
+        safe_add(item, "excluded_destination", "free_local_listings", is_g=True)
+        safe_add(item, "excluded_destination", "local_inventory_ads", is_g=True)
+
     return etree.ElementTree(rss)
 
 
